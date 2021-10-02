@@ -1,0 +1,1476 @@
+﻿| 04/23/2021 16:21:56| Guest | Connexion | Connected Successfully| user
+| 04/23/2021 16:24:28| bs00001 | UPDATE | STATUT = 'pending_for_confirmation'| documents
+| 04/23/2021 16:26:12| bs00001 | Connexion | Connected Successfully| user
+| 04/23/2021 16:33:13| admin | Connexion | Connected Successfully| user
+| 04/23/2021 17:11:41| Department | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+| 04/23/2021 17:20:50| Guest | Connexion | Connected Successfully| user
+| 04/23/2021 17:22:24| Department | Connexion | Connected Successfully| user
+| 04/23/2021 17:23:02| admin | Connexion | Connected Successfully| user
+| 04/23/2021 17:25:00| Department | INSERTION | 2, 1, 4| enseigner
+| 04/23/2021 17:25:00| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:25:00| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 17:25:14| Department | INSERTION | 2, 1, 4| enseigner
+| 04/23/2021 17:25:14| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:25:14| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 17:25:47| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:25:47| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 17:25:58| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:25:58| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 17:26:05| Department | INSERTION | 2, 1, 4| enseigner
+| 04/23/2021 17:26:05| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:26:05| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 17:27:43| Department | INSERTION | 2, 1, 4| enseigner
+| 04/23/2021 17:27:43| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:27:43| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 17:27:55| Department | INSERTION | 2, 1, 4| enseigner
+| 04/23/2021 17:27:55| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:27:55| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 17:28:02| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:28:02| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 17:28:10| Department | INSERTION | 1, 1, 4| enseigner
+| 04/23/2021 17:28:10| Department | INSERTION | 4, 1, 4| enseigner
+| 04/23/2021 23:32:48| Guest | Connexion | Connected Successfully| user
+| 04/23/2021 23:33:09| admin | Connexion | Connected Successfully| user
+| 04/23/2021 23:44:53| bs00002 | Connexion | Connected Successfully| user
+| 04/23/2021 23:57:10| admin | Connexion | Connected Successfully| user
+| 04/24/2021 00:02:53| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 00:07:13| Department | Connexion | Connected Successfully| user
+| 04/24/2021 00:47:27| teacher | Connexion | Connected Successfully| user
+| 04/24/2021 00:55:35| admin | UPDATE | TITRE = 'Bouts de bois de Dieu', DEPARTMENT = 2, BOOK_STATUS = 'New', AUTHEUR = 'Ousmane Sembene', DATE_EDITION = '2021-02-02', PICTURE = 'BKQC4747.JPG'| documents
+| 04/24/2021 00:55:53| admin | UPDATE | TITRE = 'Candide', DEPARTMENT = 3, BOOK_STATUS = 'Good', AUTHEUR = 'Voltaire', DATE_EDITION = '2021-02-02', PICTURE = 'BMGP8263.JPG'| documents
+| 04/24/2021 01:01:34| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 01:04:14| bs00002 | INSERTION | bs00002, English, Sanou, esante_home_page.PNG, sva;hs vasnvdvjh jxnvbjhvnscv xdajhfnbd fknmcbvjknvwjnsvvw ;av, 04/24/2021 01:04:14| data_bank
+| 04/24/2021 01:13:29| admin | Connexion | Connected Successfully| user
+| 04/24/2021 01:21:02| bs00002 | Connexion | Connected Successfully| user
+| 04/24/2021 01:24:19| admin | Connexion | Connected Successfully| user
+| 04/24/2021 01:26:59| bs00002 | Connexion | Connected Successfully| user
+| 04/24/2021 01:30:07| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 01:50:10| bs00002 | Connexion | Connected Successfully| user
+| 04/24/2021 02:15:08| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 03:09:40| admin | Connexion | Connected Successfully| user
+| 04/24/2021 03:36:17| teacher | INSERTION | bs00001, 2, 4| notes
+| 04/24/2021 03:37:38| Department | Connexion | Connected Successfully| user
+| 04/24/2021 03:38:14| admin | DELETION | ID_CLASSE = 8| classe
+| 04/24/2021 03:38:22| admin | DELETION | ID_CLASSE = 8| classe
+| 04/24/2021 03:38:37| admin | Connexion | Connected Successfully| user
+| 04/24/2021 03:38:51| Department | DELETION | ID_CLASSE = 5| classe
+| 04/24/2021 03:40:12| Department | DELETION | ID_CLASSE = 7| classe
+| 04/24/2021 03:45:29| teacher | INSERTION | bs00001, 2, 4| notes
+| 04/24/2021 03:45:46| teacher | INSERTION | bs00002, 1, 4| notes
+| 04/24/2021 03:45:46| teacher | INSERTION | bs00003, 1, 4| notes
+| 04/24/2021 05:05:35| teacher | INSERTION | bs00002, 1, 4| notes
+| 04/24/2021 05:05:35| teacher | INSERTION | bs00003, 1, 4| notes
+| 04/24/2021 05:40:40| teacher | UPDATE | NOM_PROF = 'Tindano', PRENOM_PROF = 'Maxime', EMAIL_PROF = 'patrick2yanogo@gmail.com', TELEPHONE_PROF = 76714589, CNIB_PROF = 'B4562156451'| professeur
+| 04/24/2021 05:41:43| teacher | UPDATE | NOM_PROF = 'Bako', PRENOM_PROF = 'Maxime', EMAIL_PROF = 'patrick2yanogo@outlook.com', TELEPHONE_PROF = 76714580, CNIB_PROF = 'B4562156450'| professeur
+| 04/24/2021 05:44:08| teacher | Connexion | Connected Successfully| user
+| 04/24/2021 06:16:37| bs00002 | UPDATE | NOM = 'Emmanuella', PRENOM = 'Yaroe', EMAIL = 'emmanuel@outlook.com', TELEPHONE = 22675757570, CNIB = 'B524585780', NUM_URGENCE = 22675757570, PROFESSION_PERE = 'Lawyer', PROFESSION_MERE = 'Accounter'| etudiant
+| 04/24/2021 13:45:02| Department | Connexion | Connected Successfully| user
+| 04/24/2021 13:55:09| admin | Connexion | Connected Successfully| user
+| 04/24/2021 14:06:49| Department | Connexion | Connected Successfully| user
+| 04/24/2021 14:10:34| admin | Connexion | Connected Successfully| user
+| 04/24/2021 14:20:59| Secretaire | Connexion | Connected Successfully| user
+| 04/24/2021 14:21:13| admin | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudantim.'| department
+| 04/24/2021 14:21:21| admin | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudantim.'| department
+| 04/24/2021 14:21:33| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudantim.'| filieres
+| 04/24/2021 14:21:35| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudantim.'| filieres
+| 04/24/2021 14:21:35| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudantim.'| filieres
+| 04/24/2021 14:21:36| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudantim.'| filieres
+| 04/24/2021 14:21:36| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudantim.'| filieres
+| 04/24/2021 14:21:40| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudanti.'| filieres
+| 04/24/2021 14:21:54| bs00002 | Connexion | Connected Successfully| user
+| 04/24/2021 14:22:14| admin | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudanti.'| department
+| 04/24/2021 14:22:28| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:29| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:29| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:30| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:30| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:30| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:30| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:30| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:30| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:31| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:31| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:31| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:31| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:31| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:31| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:32| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:32| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:32| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:32| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:33| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladanti.'| filieres
+| 04/24/2021 14:22:45| admin | Connexion | Connected Successfully| user
+| 04/24/2021 14:22:56| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudnti.'| department
+| 04/24/2021 14:23:14| Department | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'Electricity I', MONTANT_SCOLARITE = 5500000| classe
+| 04/24/2021 14:23:15| Department | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'Electricity I', MONTANT_SCOLARITE = 5500000| classe
+| 04/24/2021 14:23:17| Department | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'Electricity I', MONTANT_SCOLARITE = 5500000| classe
+| 04/24/2021 14:23:25| Department | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'Electricity I', MONTANT_SCOLARITE = 550000| classe
+| 04/24/2021 14:32:14| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 14:33:03| Secretaire | Connexion | Connected Successfully| user
+| 04/24/2021 16:19:13| admin | Connexion | Connected Successfully| user
+| 04/24/2021 16:29:52| Secretaire | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+=======
+| 04/23/2021 21:45:00| Guest | Connexion | Connected Successfully| user
+| 04/23/2021 21:49:11| admin | INSERTION | rrtr, Machine Learning, Lougoudoro, 2021-04-27, 1, new, ccc.png| documents
+| 04/23/2021 22:03:15| Guest | Connexion | Connected Successfully| user
+| 04/23/2021 22:44:26| admin | Connexion | Connected Successfully| user
+| 04/24/2021 00:02:28| bs00001 | Connexion | Connection Rejected| user
+| 04/24/2021 00:02:55| bs00001 | Connexion | Connected Successfully| user
+| 04/24/2021 11:38:22| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 12:58:09| admin | DELETION | ID_BOURSE = 2| bourse
+| 04/24/2021 13:00:42| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 13:01:35| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 13:02:55| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 13:11:16| Guest | Connexion | Connected Successfully| user
+| 04/24/2021 17:26:48| teacher | Connexion | Connected Successfully| user
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+| 04/24/2021 22:35:43| Guest | Connexion | Connected Successfully| user
+| 04/25/2021 10:42:03| Guest | Connexion | Connected Successfully| user
+| 04/25/2021 10:49:44| Department | INSERTION | , , , , , , emmayaro71@gmail.com, master 1, nnnn| professeur
+| 04/25/2021 10:49:45| Department | INSERTION | , , teacher, user_24px.png| user
+| 04/25/2021 10:49:45| Department | UPDATE | ID_USER = 28| professeur
+| 04/25/2021 10:49:45| Department | INSERTION | 2, 4, 4| enseigner
+| 04/25/2021 10:49:45| Department | INSERTION | 1, 4, 4| enseigner
+| 04/25/2021 10:49:45| Department | INSERTION | 4, 4, 4| enseigner
+| 04/25/2021 12:09:22| Department | UPDATE | NOM_PROF = '', PRENOM_PROF = '', SEXE_PROF = 'selected', DATE_NAISSANCE_PROF = '2005-04-17', CNIB_PROF = '', TELEPHONE_PROF = '', EMAIL_PROF = 'emmayaro71@gmail.com', GRADE = 'master', SPECIALITE = 'nnnn'| professeur
+| 04/25/2021 12:11:12| Department | UPDATE | NOM_PROF = '', PRENOM_PROF = '', SEXE_PROF = 'selected', DATE_NAISSANCE_PROF = '2005-04-17', CNIB_PROF = '', TELEPHONE_PROF = '', EMAIL_PROF = 'emmayaro71@gmail.com', GRADE = 'master', SPECIALITE = 'nnnn'| professeur
+| 04/25/2021 12:14:51| Department | UPDATE | NOM_PROF = '', PRENOM_PROF = '', SEXE_PROF = 'selected', DATE_NAISSANCE_PROF = '2005-04-17', CNIB_PROF = '', TELEPHONE_PROF = '', EMAIL_PROF = '', GRADE = 'master', SPECIALITE = ''| professeur
+1| 04/25/2021 14:59:19| Department | Connexion | Connected Successfully| user
+2| 04/25/2021 15:02:04| bs00003 | Connexion | Connected Successfully| user
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+| 04/25/2021 18:07:42| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 15:14:14| Guest | Connexion | Connection Rejected| user
+| 04/26/2021 15:14:27| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 15:36:30| teacher | Connexion | Connected Successfully| user
+| 04/26/2021 15:53:13| Guest | Connexion | Connected Successfully| user
+>>>>>>> Stashed changes
+=======
+<<<<<<< Updated upstream
+3| 04/26/2021 15:36:46| Guest | Connexion | Connected Successfully| user
+4| 04/26/2021 16:25:02| admin | Connexion | Connected Successfully| user
+5| 04/26/2021 16:45:56| Department | Connexion | Connected Successfully| user
+6| 04/26/2021 16:46:10| Department | Connexion | Connected Successfully| user
+>>>>>>> Stashed changes
+7| 04/26/2021 18:52:08| admin | UPDATE | MOTIVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.', OBSERVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.123'| historique_bourse
+8| 04/26/2021 18:52:08| admin | UPDATE | PRENOM = 'Emmanuel', NOM = 'Yaro', SEXE = 'Male', DATE_NAISSANCE = '1999-12-25', CNIB = 'B524585787', EMAIL = 'emmanuel@gmail.com', TELEPHONE = 22675757575, DIPLOME = 'Bac D', MOYENNE = 17.290, ECOLE_ORIGINE = 'Lycee Venegre', NUM_URGENCE = 22675757575, NOM_PERE = 'Yaro Bekassoe', NOM_MERE = 'Zongo Marie', PROFESSION_PERE = 'Teacher', PROFESSION_MERE = 'Teacher', RECOMMENDATION = 'Yanogo Patrick'| etudiant
+9| 04/26/2021 18:55:27| admin | UPDATE | MOTIVATION = 'cest quoi cette merde', OBSERVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.123'| historique_bourse
+10| 04/26/2021 18:55:27| admin | UPDATE | PRENOM = 'Emmanuel', NOM = 'Yaro', SEXE = 'Male', DATE_NAISSANCE = '1999-12-25', CNIB = 'B524585787', EMAIL = 'emmanuel@gmail.com', TELEPHONE = 22675757575, DIPLOME = 'Bac D', MOYENNE = 17.290, ECOLE_ORIGINE = 'Lycee Venegre', NUM_URGENCE = 22675757575, NOM_PERE = 'Yaro Bekassoe', NOM_MERE = 'Zongo Marie', PROFESSION_PERE = 'Teacher', PROFESSION_MERE = 'Teacher', RECOMMENDATION = 'Yanogo Patrick'| etudiant
+11| 04/26/2021 18:58:58| admin | UPDATE | MOTIVATION = 'cest quoi cette merde', OBSERVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.123'| historique_bourse
+12| 04/26/2021 18:58:58| admin | UPDATE | PRENOM = 'Emmanuel', NOM = 'Yaro', SEXE = 'Male', DATE_NAISSANCE = '1999-12-25', CNIB = 'B524585787', EMAIL = 'emmanuel@gmail.com', TELEPHONE = 22675757575, DIPLOME = 'Bac D', MOYENNE = 17.290, ECOLE_ORIGINE = 'Lycee Venegre', NUM_URGENCE = 22675757575, NOM_PERE = 'Yaro Bekassoe', NOM_MERE = 'Zongo Marie', PROFESSION_PERE = 'Teacher', PROFESSION_MERE = 'Teacher', RECOMMENDATION = 'Yanogo Patrick'| etudiant
+13| 04/26/2021 19:01:10| admin | UPDATE | MOTIVATION = 'cest quoi cette merde', OBSERVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.123'| historique_bourse
+14| 04/26/2021 19:01:10| admin | UPDATE | PRENOM = 'Emmanuel', NOM = 'Yaro', SEXE = 'Male', DATE_NAISSANCE = '1999-12-25', CNIB = 'B524585787', EMAIL = 'emmanuel@gmail.com', TELEPHONE = 22675757575, DIPLOME = 'Bac D', MOYENNE = 17.290, ECOLE_ORIGINE = 'Lycee Venegre', NUM_URGENCE = 22675757575, NOM_PERE = 'Yaro Bekassoe', NOM_MERE = 'Zongo Marie', PROFESSION_PERE = 'Teacher', PROFESSION_MERE = 'Teacher', RECOMMENDATION = 'Yanogo Patrick'| etudiant
+15| 04/26/2021 19:01:39| admin | UPDATE | MOTIVATION = 'cest quoi cette merde', OBSERVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.123'| historique_bourse
+16| 04/26/2021 19:01:40| admin | UPDATE | PRENOM = 'Emmanuel', NOM = 'Yaro', SEXE = 'Male', DATE_NAISSANCE = '1999-12-25', CNIB = 'B524585787', EMAIL = 'emmanuel@gmail.com', TELEPHONE = 22675757575, DIPLOME = 'Bac D', MOYENNE = 17.290, ECOLE_ORIGINE = 'Lycee Venegre', NUM_URGENCE = 22675757575, NOM_PERE = 'Yaro Bekassoe', NOM_MERE = 'Zongo Marie', PROFESSION_PERE = 'Teacher', PROFESSION_MERE = 'Teacher', RECOMMENDATION = 'Yanogo Patrick'| etudiant
+17| 04/26/2021 19:02:04| admin | UPDATE | MOTIVATION = 'cest quoi cette merde', OBSERVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.123'| historique_bourse
+18| 04/26/2021 19:02:04| admin | UPDATE | PRENOM = 'Emmanuel', NOM = 'Yaro', SEXE = 'Male', DATE_NAISSANCE = '1999-12-25', CNIB = 'B524585787', EMAIL = 'emmanuel@gmail.com', TELEPHONE = 22675757575, DIPLOME = 'Bac D', MOYENNE = 17.290, ECOLE_ORIGINE = 'Lycee Venegre', NUM_URGENCE = 22675757575, NOM_PERE = 'Yaro Bekassoe', NOM_MERE = 'Zongo Marie', PROFESSION_PERE = 'Teacher', PROFESSION_MERE = 'Teacher', RECOMMENDATION = 'Yanogo Patrick'| etudiant
+19| 04/26/2021 19:02:13| admin | UPDATE | MOTIVATION = 'cest quoi cette merde', OBSERVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.123'| historique_bourse
+20| 04/26/2021 19:02:13| admin | UPDATE | PRENOM = 'Yanogo', NOM = 'Emmanuel', SEXE = 'Male', DATE_NAISSANCE = '1999-12-25', CNIB = 'B524585787', EMAIL = 'emmanuel@gmail.com', TELEPHONE = 22675757575, DIPLOME = 'Bac D', MOYENNE = 17.290, ECOLE_ORIGINE = 'Lycee Venegre', NUM_URGENCE = 22675757575, NOM_PERE = 'Yaro Bekassoe', NOM_MERE = 'Zongo Marie', PROFESSION_PERE = 'Teacher', PROFESSION_MERE = 'Teacher', RECOMMENDATION = 'Yanogo Patrick'| etudiant
+21| 04/26/2021 19:02:32| admin | UPDATE | MOTIVATION = 'cest quoi cette merde', OBSERVATION = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda accusantium ut! In obcaecati consequuntur neque, perspiciatis quas corrupti nulla fugiat accusantium, quibusdam iusto, labore voluptatibus. Tempora consequatur repellat doloribus.123'| historique_bourse
+22| 04/26/2021 19:02:32| admin | UPDATE | PRENOM = 'Yanogo', NOM = 'Yanogo', SEXE = 'Male', DATE_NAISSANCE = '1999-12-25', CNIB = 'B524585787', EMAIL = 'emmanuel@gmail.com', TELEPHONE = 22675757575, DIPLOME = 'Bac D', MOYENNE = 17.290, ECOLE_ORIGINE = 'Lycee Venegre', NUM_URGENCE = 22675757575, NOM_PERE = 'Yaro Bekassoe', NOM_MERE = 'Zongo Marie Anne', PROFESSION_PERE = 'Teacher', PROFESSION_MERE = 'Teacher', RECOMMENDATION = 'Yanogo Patrick'| etudiant
+23| 04/26/2021 23:56:23| Guest | Connexion | Connected Successfully| user
+24| 04/26/2021 23:59:15| admin | Connexion | Connected Successfully| user
+25| 04/27/2021 00:15:59| admin | Connexion | Connected Successfully| user
+26| 04/27/2021 00:19:50| admin | INSERTION | 2021-10-01, 2022-01-01, 2021-11-01, 2021-12-01, 2022-01-01| annee_scolaire
+27| 04/27/2021 00:29:58| admin | INSERTION | Aissatou, Aissatou, secretary, WIN_20201018_17_04_16_Pro.jpg| user
+28| 04/27/2021 00:33:14| Guest | Connexion | Connected Successfully| user
+29| 04/27/2021 00:33:18| admin | INSERTION | Kambou, Kambou, chef_department, baground.png| user
+30| 04/27/2021 00:33:59| admin | UPDATE | USERNAME = 'admin', DROITS = 'admin'| user
+31| 04/27/2021 00:38:19| admin | UPDATE | USER_STATUS = 'disabled4'| user
+32| 04/27/2021 00:40:00| admin | INSERTION | Kambou, Yannick, chef_department, WIN_20210216_10_52_26_Pro.jpg, enable| user
+33| 04/27/2021 00:42:15| admin | INSERTION | Yaro, Yaro, chef_scolarite, WIN_20210301_22_47_49_Pro.jpg, enable| user
+34| 04/27/2021 00:44:51| admin | INSERTION | Rodrigue, Rodrigue, dean, 16063267528593072509695918339773.jpeg, enable| user
+35| 04/27/2021 00:45:14| admin | UPDATE | USERNAME = 'Yara', DROITS = 'chef_scolarite'| user
+36| 04/27/2021 00:48:28| admin | UPDATE | USERNAME = 'Yaro', DROITS = 'chef_scolarite'| user
+37| 04/27/2021 00:48:51| admin | UPDATE | USERNAME = 'Yara', DROITS = 'chef_scolarite'| user
+38| 04/27/2021 00:49:08| admin | UPDATE | USERNAME = 'Yara', DROITS = 'chef_scolarite'| user
+39| 04/27/2021 00:49:16| admin | UPDATE | USERNAME = 'Yara', DROITS = 'chef_scolarite'| user
+40| 04/27/2021 00:49:23| admin | UPDATE | USERNAME = 'Rodrigue', DROITS = 'dean'| user
+41| 04/27/2021 00:50:42| Guest | Connexion | Connection Rejected| user
+42| 04/27/2021 00:50:56| Guest | Connexion | Connection Rejected| user
+43| 04/27/2021 00:51:12| Guest | Connexion | Connected Successfully| user
+44| 04/27/2021 00:55:14| admin | INSERTION | Computer Science, KAMBOU Sie Yannick, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign. Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.| department
+45| 04/27/2021 00:57:43| admin | INSERTION | Electrical Engineering, VALEA, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign. Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.| department
+46| 04/27/2021 01:01:03| admin | INSERTION | 1, Software Engineering, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign. Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.| filieres
+47| 04/27/2021 01:01:35| admin | INSERTION | 2, Electricity, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign. Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.| filieres
+48| 04/27/2021 01:02:34| admin | INSERTION | Bac C| type_bac
+49| 04/27/2021 01:03:09| admin | INSERTION | Bac D| type_bac
+50| 04/27/2021 01:03:46| admin | INSERTION | Bac F| type_bac
+51| 04/27/2021 01:04:03| admin | INSERTION | Bac G4| type_bac
+52| 04/27/2021 01:06:27| admin | INSERTION | 1, Computer Science I, 50| classe
+53| 04/27/2021 01:07:13| admin | INSERTION | 2, Electricity I, 550000| classe
+54| 04/27/2021 01:07:36| admin | INSERTION | 1, Computer Science II, 550000| classe
+55| 04/27/2021 01:08:07| admin | UPDATE | ID_FILIERE = 1, NOM_CLASSE = 'Computer Science I', MONTANT_SCOLARITE = 550000| classe
+56| 04/27/2021 01:09:09| admin | INSERTION | 1, Computer Science III, 600000| classe
+57| 04/27/2021 01:13:44| admin | INSERTION | 2, Electricity II, 550000| classe
+58| 04/27/2021 01:14:01| admin | INSERTION | 2, Electricity III, 600000| classe
+59| 04/27/2021 01:15:22| admin | INSERTION | Semester I| semestre
+60| 04/27/2021 01:15:28| admin | INSERTION | Semester II| semestre
+61| 04/27/2021 01:16:01| admin | INSERTION | Semester III| semestre
+62| 04/27/2021 01:17:09| admin | INSERTION | Semester IV| semestre
+63| 04/27/2021 01:17:16| admin | INSERTION | Semester V| semestre
+64| 04/27/2021 01:17:22| admin | INSERTION | Semester VI| semestre
+65| 04/27/2021 01:18:04| admin | UPDATE | NOM_SEMESTRE = 'Semester 1'| semestre
+66| 04/27/2021 01:18:15| admin | DELETION | ID_SEMESTRE = 1| semestre
+67| 04/27/2021 01:18:23| admin | INSERTION | Semester I| semestre
+68| 04/27/2021 01:24:11| admin | INSERTION | 1, 7, Programming C, 6, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them.| module
+69| 04/27/2021 01:24:57| admin | INSERTION | 1, 7, English, 6, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them.| module
+70| 04/27/2021 01:25:30| admin | INSERTION | 2, 7, Python, 6, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them.| module
+71| 04/27/2021 01:26:39| admin | INSERTION | 2, 7, Algorithm, 6, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them.| module
+72| 04/27/2021 01:28:11| admin | INSERTION | 1, 2, Data Structure, 6, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them.| module
+73| 04/27/2021 01:28:30| admin | INSERTION | 1, 2, DataBase, 6, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them.| module
+74| 04/27/2021 01:29:21| admin | UPDATE | ID_CLASSE = 1, ID_SEMESTRE = 2, NOM_MODULE = 'Data base', VOLUME_HORAIRE = 6, DESCRIPTION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign. Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.'| module
+75| 04/27/2021 01:29:39| admin | UPDATE | ID_CLASSE = 1, ID_SEMESTRE = 2, NOM_MODULE = 'DataBase', VOLUME_HORAIRE = 6, DESCRIPTION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign. Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.'| module
+76| 04/27/2021 01:31:42| admin | INSERTION | 1, 2, trtrtt, 6, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them.| module
+77| 04/27/2021 01:31:53| admin | DELETION | ID_MODULE = 7| module
+78| 04/27/2021 01:34:16| admin | INSERTION | 2, 2, Programming arduino, 6, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them.| module
+79| 04/27/2021 01:43:07| Yara | INSERTION | SANOU, Lougoudoro, Male, 1999-07-28, sanoulougoudoro@gmail.com, 1, B1223535, 00 226 56 80 78 09, 00 226 72 62 73 94, LDN, Bac D, 15, 04/27/2021 01:43:07| newetudiant
+80| 04/27/2021 01:45:00| Yara | INSERTION | KABORE, Boukary, Male, 1998-07-09, kaboreboukary@gmail.com, 1, B12345678, 00 226 71 23 34 54, 00 226 77 88 90 87, LMK, Bac C, 13, 04/27/2021 01:45:00| newetudiant
+81| 04/27/2021 01:46:47| Yara | INSERTION | SEMDE, Salifou, Male, 2000-09-27, lyfsosemde2@gmail.com, 2, B11345421, 00 226 71 13 44 86, 00 226 66 97 89 05, LPK, Bac D, 14, 04/27/2021 01:46:47| newetudiant
+82| 04/27/2021 01:47:40| Guest | Connexion | Connected Successfully| user
+83| 04/27/2021 01:49:00| Yara | INSERTION | YANOGO, Patrick, Male, 2000-02-24, patrick2yanogo@outlook.com, 1, B4587625, 00 226 73 32 34 66, 00 226 54 87 87 98, LMV, Bac D, 12, 04/27/2021 01:49:00| newetudiant
+84| 04/27/2021 01:50:35| Yara | UPDATE | NOM = '', PRENOM = '', SEXE = '', DATE_NAISSANCE = '', EMAIL = '', CLASSE = '', CNIB = '', TELEPHONE = '', NUM_URGENCE = '', ECOLE_ORIGINE = '', DIPLOME = '', MOYENNE = ''| newetudiant
+85| 04/27/2021 01:52:43| Yara | UPDATE | NOM = '', PRENOM = '', SEXE = '', DATE_NAISSANCE = '', EMAIL = '', CLASSE = '', CNIB = '', TELEPHONE = '', NUM_URGENCE = '', ECOLE_ORIGINE = '', DIPLOME = '', MOYENNE = ''| newetudiant
+86| 04/27/2021 01:54:57| Yara | UPDATE | NOM = 'SANOU', PRENOM = 'Brahima', SEXE = 'Male', DATE_NAISSANCE = '1999-07-28', EMAIL = 'sanoulougoudoro@gmail.com', CLASSE = 1, CNIB = 'B1223535', TELEPHONE = 0022658545652, NUM_URGENCE = 0022658595753, ECOLE_ORIGINE = 'LDN', DIPLOME = 'Bac D', MOYENNE = 15.000| newetudiant
+87| 04/27/2021 01:55:47| admin | INSERTION | 25| bourse
+88| 04/27/2021 01:55:55| Yara | DELETION | ID_NEW_ETUDIANT = ''| newetudiant
+89| 04/27/2021 01:55:56| admin | INSERTION | 50| bourse
+90| 04/27/2021 01:56:07| admin | INSERTION | 75| bourse
+91| 04/27/2021 01:56:20| admin | INSERTION | 100| bourse
+92| 04/27/2021 01:56:29| admin | INSERTION | 200| bourse
+93| 04/27/2021 01:56:40| admin | UPDATE | TAUX = 150| bourse
+94| 04/27/2021 01:56:49| admin | DELETION | ID_BOURSE = 5| bourse
+95| 04/27/2021 01:57:48| Yara | DELETION | ID_NEW_ETUDIANT = 1| newetudiant
+96| 04/27/2021 01:59:15| admin | INSERTION | 2020200051462, Programing with Javascript, CS21 students, 2021-04-26, 1, new, amp.png| documents
+97| 04/27/2021 01:59:40| admin | UPDATE | TITRE = 'Programing with Javascript', DEPARTMENT = 1, BOOK_STATUS = 'new', AUTHEUR = 'CS21 Students', DATE_EDITION = '2021-04-26', PICTURE = ''| documents
+98| 04/27/2021 02:00:39| Yara | INSERTION | SANKARA, Olivia, Female, 2001-06-29, oliviasankara@gmail.com, 2, B1223534, 0022658789855, 0022659874521, LMV, Bac C, 14, 04/27/2021 02:00:39| newetudiant
+99| 04/27/2021 02:00:42| admin | INSERTION | 202020005146, Machine Learning, Lougoudoro, 2021-04-27, 1, new, amp.png| documents
+100| 04/27/2021 02:01:08| admin | UPDATE | TITRE = 'Machine Learning', DEPARTMENT = 0, BOOK_STATUS = 'new', AUTHEUR = 'Lougoudoro', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+101| 04/27/2021 02:02:09| Yara | INSERTION | SANOU, Lougoudoro, Male, 2001-02-08, sanoulougoudoro@gmail.com, 1, B458789562, 0022659878954, 0022653214589, LDN, Bac D, 15.73, 04/27/2021 02:02:09| newetudiant
+102| 04/27/2021 02:04:25| admin | UPDATE | TITRE = 'Machine Learning', DEPARTMENT = 0, BOOK_STATUS = 'new', AUTHEUR = 'Lougoudoro', DATE_EDITION = '2021-04-27', PICTURE = 'amp.png'| documents
+103| 04/27/2021 02:05:13| admin | INSERTION | 20202000514, Machivdfne Learning, wert, 2021-04-27, 2, good, costumer.PNG, free| documents
+104| 04/27/2021 02:05:23| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+105| 04/27/2021 02:06:08| Guest | Connexion | Connection Rejected| user
+106| 04/27/2021 02:06:25| Guest | Connexion | Connected Successfully| user
+107| 04/27/2021 02:07:04| admin | INSERTION | 1, 2021-04-27, 2021-04-30, It is just a test checking that everything runs well, 1| survey_set
+108| 04/27/2021 02:07:18| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+109| 04/27/2021 02:07:18| Aissatou | INSERTION | 4, 2021-05-06, 12:00| entretien
+110| 04/27/2021 02:07:37| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+111| 04/27/2021 02:07:37| Aissatou | INSERTION | 3, 2021-04-30, 15:00| entretien
+112| 04/27/2021 02:08:01| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+113| 04/27/2021 02:08:01| Aissatou | INSERTION | 5, 2021-05-09, 08:00| entretien
+114| 04/27/2021 02:08:15| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+115| 04/27/2021 02:08:15| Aissatou | INSERTION | 2, 2021-05-06, 18:00| entretien
+116| 04/27/2021 02:08:47| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+117| 04/27/2021 02:08:47| Aissatou | INSERTION | 6, 2021-05-08, 18:00| entretien
+118| 04/27/2021 02:09:31| Aissatou | UPDATE | DATE_ENTRETIEN = '2021-04-28', HEURE = '08:00:00'| entretien
+119| 04/27/2021 02:10:31| Guest | Connexion | Connected Successfully| user
+120| 04/27/2021 02:13:38| Yannick | UPDATE | NOM_PERE = 'SANKARA Brahima', PERE_PROFESSION = 'Police Man', NOM_MERE = 'OUEDRAOGO Fatimata', MERE_PROFESSION = 'House Keeping', MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', STATUT = 'bourse_waiting', RECOMMENDATION = 'SANOU Lougoudoro'| newetudiant
+121| 04/27/2021 02:15:18| Yannick | UPDATE | NOM_PERE = 'KABORE BANGA', PERE_PROFESSION = 'DG', NOM_MERE = 'KANSOLE  Nanankie', MERE_PROFESSION = 'Teacher', MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', STATUT = 'bourse_waiting', RECOMMENDATION = 'NANA Geremie'| newetudiant
+122| 04/27/2021 02:16:35| Yannick | UPDATE | NOM_PERE = 'SEMDE Ismael', PERE_PROFESSION = 'Police Man', NOM_MERE = 'OUILY Faouziatou', MERE_PROFESSION = 'Directrice', MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', STATUT = 'bourse_waiting', RECOMMENDATION = 'SEMDE Malick'| newetudiant
+123| 04/27/2021 02:23:38| admin | INSERTION | 0| bourse
+124| 04/27/2021 02:25:32| Yannick | UPDATE | NOM_PERE = 'Ouedraogo Boukary', PERE_PROFESSION = 'Trader', NOM_MERE = 'Kanzie Yasminatou', MERE_PROFESSION = 'Farmer', MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', STATUT = 'bourse_waiting', RECOMMENDATION = 'Bazie Giovanni'| newetudiant
+125| 04/27/2021 02:28:00| Yannick | UPDATE | NOM_PERE = 'Semde Salifou', PERE_PROFESSION = 'Teacher', NOM_MERE = 'Kone Amour', MERE_PROFESSION = 'Student', MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document', STATUT = 'bourse_waiting', RECOMMENDATION = 'Gnanou Inza'| newetudiant
+126| 04/27/2021 02:28:29| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', STATUT = 'enabled'| newetudiant
+127| 04/27/2021 02:28:40| admin | UPDATE | BOURSE = 
+                                                1, MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', STATUT = 'enabled'| newetudiant
+128| 04/27/2021 02:28:48| admin | UPDATE | BOURSE = 
+                                                3, MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', STATUT = 'enabled'| newetudiant
+129| 04/27/2021 02:29:01| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen', STATUT = 'enabled'| newetudiant
+130| 04/27/2021 02:29:52| admin | UPDATE | BOURSE = 
+                                                4, MOTIVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document', OBSERVATION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document', STATUT = 'enabled'| newetudiant
+131| 04/27/2021 02:30:54| Guest | Connexion | Connected Successfully| user
+132| 04/27/2021 02:31:13| Aissatou | INSERTION | bs00001, Olivia, SANKARA, Female, 2001-06-29, B1223534, 22658789855, oliviasankara@gmail.com, 22659874521, Bac C, 14.000, SANKARA Brahima, Police Man, OUEDRAOGO Fatimata, House Keeping, LMV, SANOU Lougoudoro, enabled, 5| etudiant
+133| 04/27/2021 02:31:13| Aissatou | INSERTION | 2, bs00001, 2, 04/27/2021 02:31:13, 1| inscription
+134| 04/27/2021 02:31:13| Aissatou | INSERTION | bs00001, bs00001, student| user
+135| 04/27/2021 02:31:13| Aissatou | INSERTION | bs00001, 2, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen, 1| historique_bourse
+136| 04/27/2021 02:31:13| Aissatou | INSERTION | 1, 275000 F CFA, 250000, 04/27/2021 02:31:13| scolarite
+137| 04/27/2021 02:31:13| Aissatou | DELETION | ID_NEW_ETUDIANT = 5| newetudiant
+138| 04/27/2021 02:44:42| Aissatou | UPDATE | MONTANT_PAYE = 270000| scolarite
+139| 04/27/2021 02:44:43| Aissatou | INSERTION | 1, 20000, 04/27/2021 02:44:43, 3| historique_payement
+140| 04/27/2021 02:49:09| admin | Connexion | Connected Successfully| user
+141| 04/27/2021 02:56:32| Aissatou | UPDATE | PRIX = 6250, DATE_LIMITE_PAIEMENT = 'Jan 05, 2021'| cantine
+142| 04/27/2021 02:56:40| Aissatou | UPDATE | PRIX = 6000, DATE_LIMITE_PAIEMENT = 'Nov 30, -0001'| cantine
+143| 04/27/2021 02:59:06| Guest | Connexion | Connected Successfully| user
+144| 04/27/2021 03:26:37| Aissatou | INSERTION | bs00002, bs00002, student, user_24px.png, enable| user
+145| 04/27/2021 03:26:37| Aissatou | INSERTION | bs00002, Boukary, KABORE, Male, 1998-07-09, B12345678, 00 226 71 23 34 54, kaboreboukary@gmail.com, 00 226 77 88 90 87, Bac C, 13.000, KABORE BANGA, DG, KANSOLE  Nanankie, Teacher, LMK, NANA Geremie, enabled, 9| etudiant
+146| 04/27/2021 03:26:37| Aissatou | INSERTION | 1, bs00002, 1, 04/27/2021 03:26:37, 1| inscription
+147| 04/27/2021 03:26:37| Aissatou | INSERTION | bs00002, 1, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen, 1| historique_bourse
+148| 04/27/2021 03:26:37| Aissatou | INSERTION | 2, 412500 F CFA, 300000, 04/27/2021 03:26:37| scolarite
+149| 04/27/2021 03:26:37| Aissatou | INSERTION | 2, 300000, 04/27/2021 03:26:37, 3| historique_payement
+150| 04/27/2021 03:26:37| Aissatou | DELETION | ID_NEW_ETUDIANT = 2| newetudiant
+151| 04/27/2021 03:27:16| bs00001 | Connexion | Connected Successfully| user
+152| 04/27/2021 03:28:11| Aissatou | INSERTION | bs00003, bs00003, student, user_24px.png, enable| user
+153| 04/27/2021 03:28:11| Aissatou | INSERTION | bs00003, Salifou, SEMDE, Male, 2000-09-27, B11345421, 00 226 71 13 44 86, lyfsosemde2@gmail.com, 00 226 66 97 89 05, Bac D, 14.000, SEMDE Ismael, Police Man, OUILY Faouziatou, Directrice, LPK, SEMDE Malick, enabled, 10| etudiant
+154| 04/27/2021 03:28:11| Aissatou | INSERTION | 3, bs00003, 2, 04/27/2021 03:28:11, 1| inscription
+155| 04/27/2021 03:28:11| Aissatou | INSERTION | bs00003, 3, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen, 1| historique_bourse
+156| 04/27/2021 03:28:11| Aissatou | INSERTION | 3, 137500 F CFA, 120000, 04/27/2021 03:28:11| scolarite
+157| 04/27/2021 03:28:11| Aissatou | INSERTION | 3, 120000, 04/27/2021 03:28:11, 3| historique_payement
+158| 04/27/2021 03:28:11| Aissatou | DELETION | ID_NEW_ETUDIANT = 3| newetudiant
+159| 04/27/2021 03:28:52| Aissatou | INSERTION | bs00004, bs00004, student, user_24px.png, enable| user
+160| 04/27/2021 03:28:52| Aissatou | INSERTION | bs00004, Yves Patrick, YANOGO, Male, 2000-02-24, B4587625, 00 226 73 32 34 66, patrick2yanogo@outlook.com, 00 226 54 87 87 98, Bac D, 15.860, Ouedraogo Boukary, Trader, Kanzie Yasminatou, Farmer, LMV, Bazie Giovanni, enabled, 11| etudiant
+161| 04/27/2021 03:28:52| Aissatou | INSERTION | 2, bs00004, 1, 04/27/2021 03:28:52, 1| inscription
+162| 04/27/2021 03:28:52| Aissatou | INSERTION | bs00004, 2, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your documen, 1| historique_bourse
+163| 04/27/2021 03:28:52| Aissatou | INSERTION | 4, 275000 F CFA, 250000, 04/27/2021 03:28:52| scolarite
+164| 04/27/2021 03:28:52| Aissatou | INSERTION | 4, 250000, 04/27/2021 03:28:52, 3| historique_payement
+165| 04/27/2021 03:28:52| Aissatou | DELETION | ID_NEW_ETUDIANT = 4| newetudiant
+166| 04/27/2021 04:07:21| Yara | Connexion | Connected Successfully| user
+167| 04/27/2021 04:11:20| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = 'IMG_20210328_153400_9.jpg'| documents
+168| 04/27/2021 04:11:44| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+169| 04/27/2021 04:14:35| admin | INSERTION | bs00001, 20202000514, 2021-04-27, 2021-05-11, New, active| louer
+170| 04/27/2021 04:15:02| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = 'IMG_20210328_153358_5.jpg'| documents
+171| 04/27/2021 04:15:12| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+172| 04/27/2021 04:16:26| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+173| 04/27/2021 04:16:46| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+174| 04/27/2021 04:17:08| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+175| 04/27/2021 04:17:21| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+176| 04/27/2021 04:17:40| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+177| 04/27/2021 04:18:40| admin | INSERTION | frert, rererw, dffde, 2021-04-08, 2, good, IMG_20210328_152905_0.jpg, free| documents
+178| 04/27/2021 04:19:00| admin | DELETION | CODE_LIVRE = 'frert'| documents
+179| 04/27/2021 04:19:21| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = 'IMG_20210328_153807_6.jpg'| documents
+180| 04/27/2021 04:19:31| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = ''| documents
+181| 04/27/2021 04:24:34| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27', PICTURE = 'IMG_20210328_153400_9.jpg'| documents
+182| 04/27/2021 04:24:42| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27'| documents
+183| 04/27/2021 04:24:48| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27'| documents
+184| 04/27/2021 04:29:00| admin | UPDATE | TITRE = 'Machivdfne Learning', DEPARTMENT = 2, BOOK_STATUS = 'good', AUTHEUR = 'wert', DATE_EDITION = '2021-04-27'| documents
+185| 04/27/2021 04:29:50| admin | INSERTION | frert, rererw, dffde, 2021-04-01, 1, good, IMG_4487.JPG, free| documents
+186| 04/27/2021 04:30:40| admin | UPDATE | TITRE = 'Programing with Javascript', DEPARTMENT = 0, BOOK_STATUS = 'new', AUTHEUR = 'CS21 Students', DATE_EDITION = '2021-04-26'| documents
+187| 04/27/2021 04:30:51| admin | DELETION | CODE_LIVRE = 2020200051462| documents
+188| 04/27/2021 04:31:28| bs00002 | UPDATE | STATUT = 'pending_for_confirmation'| documents
+189| 04/27/2021 04:32:12| admin | UPDATE | DATE_EMPRUNT = '2021-04-27 02:32:12', DATE_REMISE = '2021-05-11 02:32:12', STATUT = 'active'| louer
+190| 04/27/2021 04:32:12| admin | UPDATE | STATUT = 'in_location'| documents
+191| 04/27/2021 04:40:50| admin | UPDATE | ETAT_RETOUR = ''| louer
+192| 04/27/2021 04:40:50| admin | UPDATE | BOOK_STATUS = '', STATUT = 'free'| documents
+193| 04/27/2021 07:58:25| admin | UPDATE | ID_CLASSE = 2, ID_SEMESTRE = 2, NOM_MODULE = 'Programming arduin', VOLUME_HORAIRE = 6, DESCRIPTION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign. Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.'| module
+194| 04/27/2021 08:04:55| Yannick | INSERTION | KABORE, boukary, Male, 1995-07-27, 12121212, 33333333, boukary@gmail.com, master 2, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign. Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.| professeur
+195| 04/27/2021 08:04:55| Yannick | INSERTION | KABOREboukary, KABOREboukary, teacher, IMG_4467.JPG| user
+196| 04/27/2021 08:04:55| Yannick | UPDATE | ID_USER = 12| professeur
+197| 04/27/2021 08:04:55| Yannick | INSERTION | 1, 1, 1| enseigner
+198| 04/27/2021 08:06:41| Aissatou | Connexion | Connected Successfully| user
+199| 04/27/2021 08:35:26| KABOREboukary | INSERTION | bs00002, 1, 1| notes
+200| 04/27/2021 08:35:26| KABOREboukary | INSERTION | bs00004, 1, 1| notes
+201| 04/27/2021 08:43:21| Aissatou | Connexion | Connected Successfully| user
+202| 04/27/2021 08:52:20| admin | INSERTION | 1, 2021-04-26, 2021-05-08, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme., 1| survey_set
+203| 04/27/2021 08:55:08| admin | INSERTION | 1, 2021-04-28, 2021-05-07, erye4tr59e84yClick Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme., 1| survey_set
+204| 04/27/2021 09:00:19| admin | UPDATE | SURVEY_DESCRIPTION = 'Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme.', START_DATE = '2021-04-26', END_DATE = '2021-05-13'| survey_set
+205| 04/27/2021 09:13:36| Guest | Connexion | Connected Successfully| user
+206| 04/27/2021 09:17:48| Guest | Connexion | Connected Successfully| user
+207| 04/27/2021 09:19:24| admin | UPDATE | DATE_FIN = '2021-04-27'| annee_scolaire
+208| 04/27/2021 09:19:24| admin | INSERTION | 2021-04-29, 2021-05-06, 2021-05-28, 2021-06-04, 2021-06-23| annee_scolaire
+209| 04/27/2021 09:32:49| Aissatou | INSERTION | 2, bs00001, 2, 04/27/2021 09:32:49, 2| inscription
+210| 04/27/2021 09:32:49| Aissatou | INSERTION | 5, 275000, 29999, 04/27/2021 09:32:49| scolarite
+211| 04/27/2021 09:32:49| Aissatou | INSERTION | 5, 29999, 04/27/2021 09:32:49, 3| historique_payement
+<<<<<<< Updated upstream
+212| 04/27/2021 14:26:23| admin | Connexion | Connected Successfully| user
+213| 04/27/2021 14:29:28| Department | Connexion | Connected Successfully| user
+214| 04/27/2021 14:48:12| admin | Connexion | Connected Successfully| user
+215| 04/27/2021 15:07:46| Department | INSERTION | 1, 1, 2| enseigner
+216| 04/27/2021 15:07:46| Department | INSERTION | 5, 1, 2| enseigner
+217| 04/27/2021 15:08:51| Department | Connexion | Connection Rejected| user
+218| 04/27/2021 15:09:42| Department | Connexion | Connected Successfully| user
+219| 04/27/2021 15:16:43| KABOREboukary | Connexion | Connection Rejected| user
+220| 04/27/2021 15:17:31| KABOREboukary | Connexion | Connected Successfully| user
+221| 04/30/2021 15:19:57| Guest | Connexion | Connected Successfully| user
+=======
+=======
+| 04/24/2021 19:12:29| Department | Connexion | Connected Successfully| user
+| 04/24/2021 19:12:45| teacher | INSERTION | bs00001, 2, 4| notes
+| 04/24/2021 19:30:13| admin | Connexion | Connected Successfully| user
+| 04/24/2021 21:37:46| Guest | Connexion | Connected Successfully| user
+>>>>>>> Stashed changes
+| 04/26/2021 14:38:37| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 14:41:08| Guest | Connexion | Connection Rejected| user
+| 04/26/2021 14:41:09| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 14:42:56| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 14:44:01| admin | Connexion | Connected Successfully| user
+| 04/26/2021 14:45:20| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 14:47:30| admin | UPDATE | STATUT = 'in_meeting'| newetudiant
+| 04/26/2021 14:47:30| admin | INSERTION | 25, 2021-05-08, 12:47| entretien
+| 04/26/2021 14:48:03| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 14:48:04| Guest | Connexion | Connection Rejected| user
+| 04/26/2021 14:48:23| Guest | Connexion | Connection Rejected| user
+| 04/26/2021 14:48:46| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 14:49:01| bs00002 | Connexion | Connected Successfully| user
+| 04/26/2021 14:49:06| Guest | Connexion | Connection Rejected| user
+| 04/26/2021 14:49:11| Guest | Connexion | Connection Rejected| user
+| 04/26/2021 14:49:26| admin | Connexion | Connected Successfully| user
+| 04/26/2021 14:49:44| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 14:50:03| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:50:14| Guest | Connexion | Connection Rejected| user
+| 04/26/2021 14:50:25| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:50:33| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 14:50:34| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:50:41| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:50:59| Department | Connexion | Connection Rejected| user
+| 04/26/2021 14:51:08| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:51:15| Department | Connexion | Connected Successfully| user
+| 04/26/2021 14:51:15| admin | Connexion | Connected Successfully| user
+| 04/26/2021 14:51:23| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:52:40| admin | Connexion | Connected Successfully| user
+| 04/26/2021 14:53:06| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:53:26| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:53:40| admin | Connexion | Connection Rejected| user
+| 04/26/2021 14:54:19| admin | Connexion | Connected Successfully| user
+| 04/26/2021 14:54:20| admin | Connexion | Connected Successfully| user
+| 04/26/2021 14:56:37| bs00002 | Connexion | Connected Successfully| user
+| 04/26/2021 14:58:57| Department | Connexion | Connected Successfully| user
+| 04/26/2021 14:59:59| Department | Connexion | Connected Successfully| user
+| 04/26/2021 15:05:12| admin | Connexion | Connected Successfully| user
+| 04/26/2021 15:05:18| Secretaire | Connexion | Connected Successfully| user
+| 04/26/2021 15:06:09| Secretaire | Connexion | Connection Rejected| user
+| 04/26/2021 15:06:22| Secretaire | Connexion | Connected Successfully| user
+| 04/26/2021 15:06:32| bs00002 | Connexion | Connected Successfully| user
+| 04/26/2021 15:06:57| Secretaire | Connexion | Connection Rejected| user
+| 04/26/2021 15:07:17| Secretaire | Connexion | Connected Successfully| user
+| 04/26/2021 15:08:02| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 15:09:36| admin | Connexion | Connection Rejected| user
+| 04/26/2021 15:09:54| admin | UPDATE | DATE_EMPRUNT = '2021-04-26 13:09:54', DATE_REMISE = '2021-05-10 13:09:54', STATUT = 'active'| louer
+| 04/26/2021 15:09:54| admin | UPDATE | STATUT = 'in_location'| documents
+| 04/26/2021 15:09:54| admin | Connexion | Connection Rejected| user
+| 04/26/2021 15:10:05| admin | Connexion | Connected Successfully| user
+| 04/26/2021 15:10:21| teacher | Connexion | Connected Successfully| user
+| 04/26/2021 15:12:25| admin | Connexion | Connection Rejected| user
+| 04/26/2021 15:13:19| Guest | Connexion | Connection Rejected| user
+| 04/26/2021 15:13:31| admin | Connexion | Connected Successfully| user
+| 04/26/2021 15:13:41| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 15:13:52| admin | Connexion | Connection Rejected| user
+| 04/26/2021 15:14:34| admin | Connexion | Connected Successfully| user
+| 04/26/2021 15:14:45| admin | Connexion | Connected Successfully| user
+| 04/26/2021 15:16:59| bs00002 | Connexion | Connected Successfully| user
+| 04/26/2021 15:18:21| Secretaire | Connexion | Connected Successfully| user
+| 04/26/2021 16:46:21| Guest | Connexion | Connected Successfully| user
+| 04/26/2021 17:07:19| bs00002 | Connexion | Connected Successfully| user
+| 04/26/2021 17:07:38| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudntium.'| department
+| 04/26/2021 17:07:57| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudntum.'| department
+| 04/26/2021 17:10:40| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudntium.'| department
+| 04/26/2021 17:10:48| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudntium.'| department
+>>>>>>> Stashed changes
+3| 04/26/2021 17:19:37| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudntiu.'| department
+4| 04/26/2021 17:21:13| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit laudntium.'| department
+5| 04/26/2021 17:25:08| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto pladceat fugit laudntium.'| department
+6| 04/26/2021 17:32:00| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto pladceat fugit laudntfgium.'| department
+7| 04/26/2021 17:36:40| Department | INSERTION | Mechanical Engineering, Patick Yanogo, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod quae libero eaque. Officia quaerat, corrupti labore fugiat eaque ratione commodi accusantium modi repellendus enim. Quasi cupiditate libero aliquid laboriosam.| department
+8| 04/26/2021 17:38:15| Department | INSERTION | Watr, sdfsd, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod quae libero eaque. Officia quaerat, corrupti labore fugiat eaque ratione commodi accusantium modi repellendus enim. Quasi cupiditate libero aliquid laboriosam.| department
+9| 04/26/2021 17:40:46| Guest | Connexion | Connected Successfully| user
+10| 04/26/2021 17:49:25| Department | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladantiu.'| filieres
+11| 04/26/2021 17:52:31| Secretaire | Connexion | Connected Successfully| user
+12| 04/26/2021 17:54:48| Department | Connexion | Connected Successfully| user
+13| 04/26/2021 18:00:26| Department | DELETION | ID_DEPARTEMENT = 5| department
+14| 04/26/2021 18:22:28| Department | UPDATE | NOM_DEPARTEMENT = 'Computer Science', CHEF_DEPARTEMENT = 'Kambou Yannick', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto pladceat fugit laudntium.'| department
+15| 04/26/2021 18:22:54| Department | DELETION | ID_DEPARTEMENT = 4| department
+16| 04/26/2021 18:28:25| Department | INSERTION | df, sfds, del_department| department
+17| 04/26/2021 18:28:35| Department | DELETION | ID_DEPARTEMENT = 6| department
+18| 04/26/2021 18:30:00| Department | INSERTION | dsfdfsdfs, scsdfs, sdfsvfgsv| department
+19| 04/26/2021 18:45:54| Secretaire | Connexion | Connected Successfully| user
+20| 04/26/2021 18:46:10| admin | UPDATE | ID_DEPARTEMENT = 3, NOM_FILIERE = 'Electricity', DESCRIPTION = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur molestias officiis! Aspernatur quos dolor deleniti quaerat officia unde non magnam, aliquam quis quas pariatur iure architecto placeat fugit ladantium.'| filieres
+21| 04/26/2021 18:52:20| Department | INSERTION | 3, dfdf, scsdsvsd| filieres
+22| 04/26/2021 18:52:33| Department | INSERTION | cxc| type_bac
+23| 04/26/2021 18:52:48| Department | DELETION | ID_TYPE_BAC = 33| type_bac
+24| 04/26/2021 18:54:29| Department | DELETION | ID_TYPE_BAC = 33| type_bac
+25| 04/26/2021 18:55:30| Department | INSERTION | cxc| type_bac
+26| 04/26/2021 18:55:56| admin | INSERTION | hfg| type_bac
+27| 04/26/2021 19:01:16| Department | DELETION | ID_FILIERE = 7| filieres
+28| 04/26/2021 19:01:27| Department | DELETION | ID_FILIERE = 7| filieres
+29| 04/26/2021 19:10:12| Department | INSERTION | 2, hjhb, gtyghfv| filieres
+30| 04/26/2021 19:10:22| Department | DELETION | ID_FILIERE = 8| filieres
+31| 04/26/2021 19:12:22| Department | INSERTION | 2, sfds, sjkdfsnj| filieres
+32| 04/26/2021 19:12:42| Department | DELETION | ID_FILIERE = 9| filieres
+33| 04/26/2021 19:14:03| Department | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'Electricity I', MONTANT_SCOLARITE = 55000| classe
+34| 04/26/2021 19:14:10| Department | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'Electricity I', MONTANT_SCOLARITE = 550000| classe
+35| 04/26/2021 19:20:48| Department | INSERTION | 5, sdffs, 5225656| classe
+36| 04/26/2021 19:21:18| admin | INSERTION | 6, sdffsdf, 566562| classe
+37| 04/26/2021 19:21:53| admin | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'sdffsdf', MONTANT_SCOLARITE = 5665| classe
+38| 04/26/2021 19:22:08| admin | DELETION | ID_CLASSE = 10| classe
+39| 04/26/2021 19:22:17| admin | DELETION | ID_CLASSE = 9| classe
+40| 04/26/2021 19:22:58| Department | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'Electricity II', MONTANT_SCOLARITE = 550000| classe
+41| 04/26/2021 19:23:06| Department | UPDATE | ID_FILIERE = 6, NOM_CLASSE = 'Electricity I', MONTANT_SCOLARITE = 550000| classe
+42| 04/26/2021 19:38:00| admin | Connexion | Connected Successfully| user
+43| 04/26/2021 19:38:13| Secretaire | Connexion | Connected Successfully| user
+44| 04/26/2021 19:38:25| Scolarite | Connexion | Connected Successfully| user
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+| 04/27/2021 16:13:53| Guest | Connexion | Connected Successfully| user
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+| 05/28/2021 12:13:09| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/28/2021 12:14:57| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/28/2021 12:16:35| Yannick | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 05/28/2021 12:16:45| Yannick | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 05/28/2021 12:16:56| Yannick | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/28/2021 12:18:14| Yara | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/28/2021 12:21:09| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/28/2021 12:51:56| bs00001 | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/28/2021 13:01:55| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/28/2021 13:02:13| KABOREboukary | UPDATE | NOM_PROF = 'KABORE', PRENOM_PROF = 'boukary', EMAIL_PROF = 'boukary@gmail.com', TELEPHONE_PROF = 0022656235689, CNIB_PROF = 12121212| professeur
+<<<<<<< Updated upstream
+| 05/28/2021 13:02:57| KABOREboukary | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 05/28/2021 13:05:18| KABOREboukary | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/05/2021 17:31:51| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 05/05/2021 17:34:27| admin | INSERTION | 3, 2, Maths, 12, Coollllllllllllllllllllllllllll| module
+<<<<<<< Updated upstream
+| 06/02/2021 18:49:30| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 18:57:21| admin | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/02/2021 18:57:28| admin | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/02/2021 18:58:01| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:03:37| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:04:19| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:05:21| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:10:25| Yara | INSERTION | NANA, Jeremie, Male, 1997-06-10, nanajeremie09@gmail.com, 1, BF7427, 0022660649911, 0022664412419, Lycee Schorge, Bac D, 12, 06/02/2021 19:10:25| newetudiant
+<<<<<<< Updated upstream
+| 06/02/2021 19:11:04| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:13:14| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/02/2021 19:13:14| Aissatou | INSERTION | 7, 2021-06-04, 08:29| entretien
+<<<<<<< Updated upstream
+| 06/02/2021 19:13:42| Yara | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:21:40| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:23:12| Kambou | UPDATE | NOM_PERE = 'Nana', PERE_PROFESSION = 'Famer', NOM_MERE = 'Zongo', MERE_PROFESSION = 'farmer', MOTIVATION = 'gy7yg7y', OBSERVATION = '2t26r3', STATUT = 'bourse_waiting', RECOMMENDATION = 'Lougoudoro'| newetudiant
+<<<<<<< Updated upstream
+| 06/02/2021 19:23:54| admin | UPDATE | BOURSE = 
+                                                3, MOTIVATION = 'gy7yg7y', OBSERVATION = '2t26r3', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/02/2021 19:25:05| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:26:44| Aissatou | INSERTION | bs00005, bs00005, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:26:44| Aissatou | INSERTION | bs00005, Jeremie, NANA, Male, 1997-06-10, BF7427, 22660649911, nanajeremie09@gmail.com, 22664412419, Bac D, 12.000, Nana, Famer, Zongo, farmer, Lycee Schorge, Lougoudoro, enabled, 13| etudiant
+<<<<<<< Updated upstream
+| 06/02/2021 19:26:44| Aissatou | INSERTION | 3, bs00005, 1, 06/02/2021 19:26:44, 2| inscription
+<<<<<<< Updated upstream
+| 06/02/2021 19:26:44| Aissatou | INSERTION | bs00005, 3, gy7yg7y, 2t26r3, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/02/2021 19:26:44| Aissatou | INSERTION | 6, 137500 F CFA, 25000, 06/02/2021 19:26:44| scolarite
+<<<<<<< Updated upstream
+| 06/02/2021 19:26:44| Aissatou | INSERTION | 6, 25000, 06/02/2021 19:26:44, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/02/2021 19:26:44| Aissatou | DELETION | ID_NEW_ETUDIANT = 7| newetudiant
+<<<<<<< Updated upstream
+| 06/02/2021 19:29:03| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:30:55| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:34:41| bs00005 | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:36:38| Kambou | INSERTION | Bako, Maxime, Male, 1995-06-06, BF00025, +22667901273, itbusiness62@gmail.com, master 2, gcsghjjh| professeur
+<<<<<<< Updated upstream
+| 06/02/2021 19:36:38| Kambou | INSERTION | BakoMaxime, BakoMaxime, teacher, 8e6cfabunw141.jpgfit700720ssl1.jpeg| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:36:38| Kambou | UPDATE | ID_USER = 14| professeur
+<<<<<<< Updated upstream
+| 06/02/2021 19:36:38| Kambou | INSERTION | 6, 2, 2| enseigner
+<<<<<<< Updated upstream
+| 06/02/2021 19:39:22| Kambou | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:39:48| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:43:00| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:45:08| BakoMaxime | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:47:58| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 19:48:52| bs00005 | INSERTION | bs00005, Programming C, Java, 8e6cfabunw141.jpgfit700720ssl1.jpeg, bon pour la programmation, 06/02/2021 19:48:52| data_bank
+<<<<<<< Updated upstream
+| 06/02/2021 20:11:20| bs00005 | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:11:27| bs00005 | UPDATE | STATUT = 'pending_for_confirmation'| documents
+<<<<<<< Updated upstream
+| 06/02/2021 20:17:08| admin | INSERTION | 531027, Candide, Jeremie, 2021-06-01, 0, new, 01 futur mechoui.jpg, free| documents
+<<<<<<< Updated upstream
+| 06/02/2021 20:18:11| admin | UPDATE | DATE_EMPRUNT = '2021-06-02 18:18:11', DATE_REMISE = '2021-06-16 18:18:11', STATUT = 'active'| louer
+<<<<<<< Updated upstream
+| 06/02/2021 20:18:11| admin | UPDATE | STATUT = 'in_location'| documents
+<<<<<<< Updated upstream
+| 06/02/2021 20:19:45| admin | INSERTION | 6, 2021-06-01, 2021-06-10, Database, 2| survey_set
+<<<<<<< Updated upstream
+| 06/02/2021 20:21:56| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:32:19| Aissatou | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:32:23| bs00005 | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:32:32| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:32:48| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:33:06| BakoMaxime | INSERTION | bs00005, 6, 2| notes
+<<<<<<< Updated upstream
+| 06/02/2021 20:34:00| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:35:46| bs00005 | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:42:43| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/02/2021 20:42:52| BakoMaxime | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/04/2021 19:33:20| bs00005 | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/04/2021 19:36:17| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/04/2021 19:42:42| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/04/2021 19:55:21| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:24:04| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:37:25| Guest | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:37:57| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:41:03| Logoudoro | INSERTION | Sankara, Olivia, Female, 2004-06-04, test@gmail.com, 4, Bkhdjjdjdjz, 00000000, 0000000, Philip Zinda, Bac D, 14, 06/05/2021 00:41:03| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:41:46| Guest | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:42:24| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:43:04| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:44:39| Logoudoro | INSERTION | SEMDE, Salifou, Male, 1998-09-27, lyfsosemde2@gmail.com, 4, B11320112, 00 226 71 13 44 86, 00 226 70 98 54 85, Lycée Provincial de Koudougou, Bac D, 14.65, 06/05/2021 00:44:39| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:44:53| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:45:07| Logoudoro | INSERTION | Mariam, Sanou, Female, 2002-06-06, test2@gmail.com, 6, B225637, 73578309, 78360937, Nazi Boni, Bac F, 13, 06/05/2021 00:45:07| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:45:33| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 00:46:35| Logoudoro | INSERTION | SANOU, Lougougnara, Male, 2005-06-01, lougougnara@gmail.com, 1, B7451230, 56569635, 09893284, LMK, Bac D, 14, 06/05/2021 00:46:35| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:47:14| Logoudoro | INSERTION | Zongo, Axel, Male, 2000-02-04, test3@gmail.com, 3, B7383883, 73578310, 78360923, Lycée Provincial de Banfora, Bac D, 15, 06/05/2021 00:47:14| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:48:28| Logoudoro | INSERTION | KANZIE, Pelagie, Female, 2002-09-12, lyfsosemde3@gmail.com, 4, B13212343, 00 226 71 17 44 87, 00 226 70 98 54 85, College Saint-Joseph Moukassa, Bac D, 13.25, 06/05/2021 00:48:28| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:48:57| Logoudoro | INSERTION | SANOU, Soumaila, Male, 1995-06-04, soumaila@gmail.com, 3, B4451230, 34809635, 4534324, lpk, Bac C, 17, 06/05/2021 00:48:57| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:51:06| Logoudoro | INSERTION | YASUKE, Orochi, Male, 1999-06-04, yasuke@gmail.com, 3, B873839, +22674439769, +2267456799, Provincial, Bac D, 12, 06/05/2021 00:51:06| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:51:23| Logoudoro | INSERTION | SANOU, Mariam, Female, 1998-05-04, mariam@gmail.com, 3, B348482004, 55369635, 92098932, LSK, Bac D, 17, 06/05/2021 00:51:23| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:52:38| Logoudoro | INSERTION | YAMEOGO, Carine, Female, 1998-09-04, salifsemde700@gmail.com, 4, B00123432, 00226 73455432, 00 226 74 98 54 85, LPAS, Bac D, 12.48, 06/05/2021 00:52:38| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:55:04| Logoudoro | INSERTION | Eikichi, Onizuka, Male, 1997-06-04, onizuka@gmail.com, 3, B289012, +22674439768, +2267456790, CFCPK, Bac F, 15, 06/05/2021 00:55:04| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:57:01| Logoudoro | INSERTION | KABORE, Boukary, Male, 2000-01-12, lyfsosemde12@gmail.com, 1, B113201122, 00 226 71 13 44 86, 00 226 74 98 54 85, LPAS, Bac C, 11.36, 06/05/2021 00:57:01| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 00:59:50| Logoudoro | INSERTION | YARO, Emmanuel, Male, 1999-12-31, lyfsosemde112@gmail.com, 1, B113201322, 00 226 71 13 44 86, 00 226 74 98 54 85, LPK, Bac C, 16, 06/05/2021 00:59:50| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:02:32| Logoudoro | INSERTION | Birba, Abdoul Razack, Male, 2001-01-04, test4@gmail.com, 1, B738385673, 73578363, 783609354, Sainte Famille, Bac D, 11.92, 06/05/2021 01:02:32| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:05:12| Logoudoro | INSERTION | Sakura, SAWADOGO, Female, 2001-06-01, hets@gmail.com, 6, B2890190, +22674439760, +2267456790, Le réveil, Bac D, 16, 06/05/2021 01:05:12| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:06:41| Logoudoro | INSERTION | 436822| savecode
+<<<<<<< Updated upstream
+| 06/05/2021 01:06:57| Logoudoro | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:08:03| Logoudoro | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:08:47| Logoudoro | INSERTION | 661246| savecode
+<<<<<<< Updated upstream
+| 06/05/2021 01:13:49| Kambou | INSERTION | Maxime, Bako, Male, 1992-04-14, B273638, 71188386, chocoboynrg@gmail.com, master 2, Fullstack Developer| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:13:49| Kambou | INSERTION | MaximeBako, MaximeBako, teacher, user_24px.png| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:13:49| Kambou | UPDATE | ID_USER = 15| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:13:49| Kambou | INSERTION | 5, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 01:13:49| Kambou | INSERTION | 1, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 01:14:32| Logoudoro | INSERTION | 868987| savecode
+<<<<<<< Updated upstream
+| 06/05/2021 01:23:00| Kambou | INSERTION | Olivier, Tindano, Male, 1975-09-10, B355732, 70405060, tolivier@gmail.com, Phd, Database
+Oracle
+MySQL
+MongoDB| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:23:00| Kambou | INSERTION | OlivierTindano, OlivierTindano, teacher, user_24px.png| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:23:00| Kambou | UPDATE | ID_USER = 16| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:23:00| Kambou | INSERTION | 5, 2, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 01:23:00| Kambou | INSERTION | 6, 2, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 01:24:25| Kambou | INSERTION | Isidore, KOURAOGO, Male, 1981-12-31, B2322564, 76598283, lyfsosemde10@gmail.com, master 2, Celui qui rédige un document scientifique n’est pas supposé réinventer la roue. Vous pouvez et 
+devez avoir recours aux travaux déjà réalisés dans votre discipline : La science se veut coopérative ! C’est là que la traçabilité est décisive. C’est un élément fondamental de ce que l’on appelle 
+les “bonnes pratiques scientifiques”1
+ et permet aux lecteurs de votre travail de consulter les 
+mêmes sources que vous| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:24:25| Kambou | INSERTION | IsidoreKOURAOGO, IsidoreKOURAOGO, teacher, 4941A58B-276B-4CD9-8394-3D7A78CC215FL0001.jpeg| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:24:25| Kambou | UPDATE | ID_USER = 17| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:24:25| Kambou | INSERTION | 1, 3, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 01:26:05| Kambou | INSERTION | Gerard Blamsiah, Damoh, Male, 1987-11-13, B3557563, 62359175, damohgerard@gmail.com, master 2, Java
+Android
+SQLite| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:26:05| Kambou | INSERTION | Gerard BlamsiahDamoh, Gerard BlamsiahDamoh, teacher, user_24px.png| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:26:05| Kambou | UPDATE | ID_USER = 18| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:26:05| Kambou | INSERTION | 5, 4, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 01:26:05| Kambou | INSERTION | 1, 4, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 01:27:59| Logoudoro | INSERTION | 825557| savecode
+<<<<<<< Updated upstream
+| 06/05/2021 01:28:46| Logoudoro | UPDATE | PASSWORD = 1234| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:29:20| Kambou | INSERTION | LYFSO, Salifou, Male, 1997-12-31, B23225643, 77811585, lyfsosemde10@gmail.com, master 2, Celui qui rédige un document scientifique n’est pas supposé réinventer la roue. Vous pouvez et 
+devez avoir recours aux travaux déjà réalisés dans votre discipline : La science se veut coopérative ! C’est là que la traçabilité est décisive. C’est un élément fondamental de ce que l’on appelle 
+les “bonnes pratiques scientifiques”1
+ et permet aux lecteurs de votre travail de consulter les 
+mêmes sources que vous| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:29:20| Kambou | INSERTION | LYFSOSalifou, LYFSOSalifou, teacher, IMG_20190202_154041.jpg| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:29:20| Kambou | UPDATE | ID_USER = 19| professeur
+<<<<<<< Updated upstream
+| 06/05/2021 01:29:20| Kambou | INSERTION | 1, 5, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 01:30:30| Logoudoro | INSERTION | 343093| savecode
+<<<<<<< Updated upstream
+| 06/05/2021 01:31:13| Logoudoro | UPDATE | PASSWORD = 1234| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:31:14| Logoudoro | DELETION | ID_SAVECODE = 343093| savecode
+<<<<<<< Updated upstream
+| 06/05/2021 01:33:04| Logoudoro | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:34:26| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:34:26| Aissatou | INSERTION | 1, 2021-06-05, 06:00| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:34:46| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:34:46| Aissatou | INSERTION | 2, 2021-06-05, 06:30| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:35:03| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:35:03| Aissatou | INSERTION | 3, 2021-06-05, 06:30| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:35:34| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:35:34| Aissatou | INSERTION | 4, 2021-06-05, 07:00| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:35:58| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:35:58| Aissatou | INSERTION | 5, 2021-06-05, 06:15| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:36:18| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:36:18| Aissatou | INSERTION | 6, 2021-06-05, 07:15| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:36:33| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:36:33| Aissatou | INSERTION | 7, 2021-06-05, 07:30| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:36:56| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:36:56| Aissatou | INSERTION | 8, 2021-06-05, 07:45| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:37:17| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:37:17| Aissatou | INSERTION | 9, 2021-06-05, 08:00| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:37:37| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:37:37| Aissatou | INSERTION | 10, 2021-06-05, 08:15| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:37:54| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:37:54| Aissatou | INSERTION | 11, 2021-06-05, 08:30| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:38:12| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:38:12| Aissatou | INSERTION | 12, 2021-06-05, 08:45| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:38:35| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:38:35| Aissatou | INSERTION | 13, 2021-06-05, 09:00| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:39:00| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:39:00| Aissatou | INSERTION | 14, 2021-06-05, 09:15| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:39:49| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:39:49| Aissatou | INSERTION | 15, 2021-06-05, 10:30| entretien
+<<<<<<< Updated upstream
+| 06/05/2021 01:45:04| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:45:50| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:50:17| Kambou | UPDATE | NOM_PERE = 'Nana', PERE_PROFESSION = 'Computer Science', NOM_MERE = 'Ouedraogo', MERE_PROFESSION = 'Accountant', MOTIVATION = 'Maths: 15
+Logic: 12
+English: 13', OBSERVATION = 'Very impressive student', STATUT = 'bourse_waiting', RECOMMENDATION = 'Bazie Giovanni'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:51:49| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 01:52:39| Kambou | UPDATE | NOM_PERE = 'Bazie', PERE_PROFESSION = 'Giovanni', NOM_MERE = 'Sawadogo', MERE_PROFESSION = 'Mariam', MOTIVATION = 'Maths: 12
+Logic: 12
+English: 16', OBSERVATION = 'Feel at ease in English', STATUT = 'bourse_waiting', RECOMMENDATION = 'Nana Jeremie'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 01:57:16| Kambou | UPDATE | NOM_PERE = 'Sanou Lougoudoro', PERE_PROFESSION = 'Computer Sciencetist', NOM_MERE = 'Sankara Olivia', MERE_PROFESSION = 'Lecturer', MOTIVATION = 'Maths: 15
+Logic: 14 
+English: 15', OBSERVATION = 'already knows basics in programming', STATUT = 'bourse_waiting', RECOMMENDATION = 'Sanou Lougoudoro'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:00:34| Kambou | UPDATE | NOM_PERE = 'Sanou Mahamadi', PERE_PROFESSION = 'Farmer', NOM_MERE = 'Sessouma Alimatou', MERE_PROFESSION = 'Merchant', MOTIVATION = 'Maths: 17
+Logic: 14
+English: 12', OBSERVATION = 'Will have to not be to quiet', STATUT = 'bourse_waiting', RECOMMENDATION = 'Sanou Lougoudoro'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:01:23| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:03:04| Kambou | UPDATE | NOM_PERE = 'Zongo Marc', PERE_PROFESSION = 'Architect', NOM_MERE = 'Sawadogo Joceline', MERE_PROFESSION = 'Nurse', MOTIVATION = 'Maths: 14
+Logic: 15
+English: 18', OBSERVATION = 'High prestance and very eloquant', STATUT = 'bourse_waiting', RECOMMENDATION = 'Gampine Aristide'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:06:26| admin | INSERTION | 1, 7, Introduction to Computer Science, 6, This course brings all students on the same level in terms of computer and smartphone knowledge. On the one hand, they learn what the different hardware components are and what they do. On the other hand, they will learn the basics about system and application software. For both types of software, they will learn to install and use them properly as well as understand their purpose and basic functionality.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:06:27| Kambou | UPDATE | NOM_PERE = 'Bazie Giovanni', PERE_PROFESSION = 'Computer Scientist', NOM_MERE = 'Ouedraogo Ramata', MERE_PROFESSION = 'Consultant in Urbanism', MOTIVATION = 'Maths: 13
+Logic: 17
+English: 18', OBSERVATION = 'Enthusiastic girl.
+Loves Programming', STATUT = 'bourse_waiting', RECOMMENDATION = 'Bazie Giovanni'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:07:16| admin | INSERTION | 3, 7, Mathematics, 6, Basic concepts (sets, tuples, real numbers, sum notation, natural numbers, complex numbers, polynomials, power series), linear algebra (vectors, matrices, subspaces, systems of linear equations, analytic geometry, linear optimization, determinants), consequences (consequences, linear recursion, Limit values, series), real functions (general function term, polynomial functions, rational functions, power series functions, exponential function, trigonometric functions, logarithm, power functions, limits and continuity), differential calculus (differential quotient and derivative, derivative rules, higher derivatives, curve discussions, optimization problems, Taylor series ), Integral calculus (integral, area calculation, parent function, main theorem of differential and integral calculus, integration rules, applications of integral calculus, differential equations), multidimensional analysis (functions of multiple variables, partial derivative, gradient, Hesse matrix, extremal with and without constraints)| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:08:20| admin | INSERTION | 3, 7, Introduction to Programming, 6, This course provides technical problem solving and computer programming skills for students with no prior experience in the area of programming. Students will use JavaScript to learn the fundamentals of computer programming including how to write, compile, and execute programs. The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about how to use computation to accomplish some goals later in their career.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:08:59| Kambou | UPDATE | NOM_PERE = 'Sanou Lougoudoro', PERE_PROFESSION = 'Computer Scientist', NOM_MERE = 'Sawadogo Elisabeth', MERE_PROFESSION = 'Singer', MOTIVATION = 'Maths: 15
+Logic: 15
+English: 15', OBSERVATION = 'Good in expression. Already show eloquence', STATUT = 'bourse_waiting', RECOMMENDATION = 'Sanou Lougoudoro'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:09:12| admin | INSERTION | 3, 7, Microsoft Office, 6, The students will work in small teams and master computations in Excel. They will also be taught the Language for Visual Basic Applications (VBA) in order to use Excel for building various applications.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:10:15| admin | INSERTION | 3, 2, Statistics, 6, Descriptive Statistics: Location and dispersion measures, Graphical Representation of univariate and bivariate data, Correlation measures for bivariate data, Descriptive linear regression
+Probability calculation: Examples of discrete and continuous probability distributions, Conditional probabilities, Stochastic independence, Random variables, and their distribution function as well as moments, Conditional distributions
+Closing statistics: Confidence intervals, Hypothesis tests, Basic concepts of multiple linear regression| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:10:49| admin | INSERTION | 3, 2, Management & Strategy, 6, This course gives an understanding of basic functions of management and the necessary steps/instruments of a strategy development process. The focus will be on entrepreneurial management and strategy to show students how entrepreneurs conceptualize, implement, and manage the necessary resources for new businesses.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:11:20| Kambou | UPDATE | NOM_PERE = 'Kenpachi Zaraki', PERE_PROFESSION = 'Martial Art trainer', NOM_MERE = 'Ishiki Carine', MERE_PROFESSION = 'Manga drawer', MOTIVATION = 'Maths: 16
+Logic: 16
+English: 20', OBSERVATION = 'Best in English expression', STATUT = 'bourse_waiting', RECOMMENDATION = 'Orochimaru'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:11:30| admin | INSERTION | 3, 2, Operating Systems, 6, Basic concepts: Operating systems; Concurrency; parallel programming; System-oriented programming (processes, memory, communication, BM management, models (abstract, formal) for concurrency, including Petri nets, mutual exclusion, synchronization, deadlocks, compiler / linker / loader with library integration, transition to (suitable) hardware basis, near-machine programming and C; I / O especially for preparation of networking)| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:12:13| admin | INSERTION | 3, 2, Front-End Web Development, 6, This course teaches how to build user-friendly, interactive websites by learning the fundamentals of HTML and CSS – two common coding languages on which most modern websites are built. Students will learn the necessary skills for programming a user interface of a web application and thereby acquire knowledge relevant for every institution with a website to communicate. HTML is used to layout the website, while CSS styles the website elements.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:12:57| admin | INSERTION | 3, 2, Design a Website with UpWork, 6, This module will teach them how to design a Website by getting an insight into HTML and a free website design tool. They will make use of the learned skill in the Web Development 1: Front-End Course. This will happen in small teams. Also, they will get to know the Website Upwork and implement their own profile.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:13:44| admin | INSERTION | 1, 3, Databases, 6, SQL, data integrity, relational design theory, physical data organization (storage organization, index structures), query processing, transaction management, fundamentals of error recovery (recovery, backup) and multi-user synchronization, security aspects (authorization), XML data modeling (optional)
+In the lecture, the content will be presented on the basis of animated slides and mostly explained by simple examples. In the exercise, the content will be rehearsed using more complex examples under the guidance of a tutor. In addition, there are self-study tasks, as well as a web interface to the HyPer database system for active SQL query testing and self-study of query plans
+Grading: 100% Exam| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:14:29| Kambou | UPDATE | NOM_PERE = 'Sebgo Abdoul Fatao', PERE_PROFESSION = 'Drug Store onwer', NOM_MERE = 'Zongo Angel', MERE_PROFESSION = 'Doctor', MOTIVATION = 'Maths: 18
+Logic: 13
+English: 13', OBSERVATION = 'Must follow English Courses', STATUT = 'bourse_waiting', RECOMMENDATION = 'Yameogo Philipe'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:14:30| admin | INSERTION | 1, 3, Accounting & Finance, 6, Students will learn the basic concepts of accounting such as the construction of balance sheets, cash flow, P&L, and other financial statements. In addition, students will learn what use these financial statements have for external stakeholders such as investors and creditors. The theoretical foundations are enriched by real-world examples with a focus on accounting for innovative ventures and startups in Burkina Faso.
+Additionally, students will be taught what an investment decision is by learning fundamental concepts such as cash value and internal interest rates, including interest yield and risk management. Key lessons in exchange rates, financial institutions, and instruments round off the basis in finance. The course also includes an introduction to business financing and business valuation with a focus on entrepreneurial ventures.
+Grading: 100% Exam| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:14:58| admin | INSERTION | 5, 7, Mathematics I, 6, Basic concepts (sets, tuples, real numbers, sum notation, natural numbers, complex numbers, polynomials, power series), linear algebra (vectors, matrices, subspaces, systems of linear equations, analytic geometry, linear optimization, determinants), consequences (consequences, linear recursion, Limit values, series), real functions (general function term, polynomial functions, rational functions, power series functions, exponential function, trigonometric functions, logarithm, power functions, limits and continuity), differential calculus (differential quotient and derivative, derivative rules, higher derivatives, curve discussions, optimization problems, Taylor series ), Integral calculus (integral, area calculation, parent function, main theorem of differential and integral calculus, integration rules, applications of integral calculus, differential equations), multidimensional analysis (functions of multiple variables, partial derivative, gradient, Hesse matrix, extremal with and without constraints).| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:15:22| admin | INSERTION | 1, 3, Back-End Web Development, 6, In this course, you will learn about the basics of how Angular works, and why Angular has emerged as a popular framework for JavaScript/TypeScript application development. You will also learn how to properly set up your development environment for creating an Angular app, including installing VS Code, Node.JS, TypeScript, and the Angular CLI.
+Students will gain a deep understanding of Node and learn how NodeJS works under the hood. Node is a technology which enables users to develop website back-ends with JavaScript. Users will learn to build both: APIs for Android back-ends as well as back-ends for web applications. This includes user authentications, security, and data storage using SQL. The aim is to turn the students into professional Node developers capable of developing, testing, and deploying real-world production applications.
+Grading: 80% Exam 20% Participation| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:16:20| admin | INSERTION | 5, 7, Physics, 6, Students will comprehend the concept of physics, especially concerning the application of physical phenomena and laws (e.g. optics due to the growing importance of optoelectronics or mechanics in connection with machines and microsystems technology). Furthermore, the fundamentals for the measurements of non-electrical quantities are to be laid out. Subtopics within this course include: mechanics of the mass point and the rigid body; wave mechanics; wave optics; beam optics; basics of kinetic gas theory; and introduction to quantum mechanics.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:17:02| Kambou | UPDATE | NOM_PERE = 'Yameogo Philipe', PERE_PROFESSION = 'IT manager', NOM_MERE = 'Zongo Elie', MERE_PROFESSION = 'English Teacher', MOTIVATION = 'Maths: 13
+Logic: 17
+English: 17', OBSERVATION = 'Feel at ease in English', STATUT = 'bourse_waiting', RECOMMENDATION = 'Belem Mahamadi'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:17:22| admin | INSERTION | 5, 7, Electrical Engineering I, 6, Electrical Engineering 1 teaches the physical and electrotechnical basic quantities and terms for the description of electrical circuits and how to apply them in the analysis and evaluation of concrete circuits. Additionally, the course manifests understanding the principle of the equivalent circuit diagram for the analysis of electronic circuits and how to apply it to concrete cases, while analyzing and evaluating linear electrical networks with direct current excitation utilizing network theory.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:18:19| admin | INSERTION | 1, 3, Algorithms and Data structures, 6, Basic programming techniques (loops, branches, etc.).
+Elementary processing of strings, design, and analysis of simple algorithms, complexity measures.
+Abstract data structures, graphs, trees, lists, snakes, stacks.
+Sort, search, algorithms on graphs, numerical algorithms, optional: data compression.
+Grading: 100% Exam| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:18:33| admin | INSERTION | 5, 7, Introduction to Energy Generation & Renewable Energy, 6, Students will be given an overview of the main renewable energy sources, concepts, technologies and challenges to tackle climate change and other sustainable development objectives, as well as an insight into possible solutions for sustainable energy use. Students will be able to identify, understand and evaluate the different renewable energy sources available today and in the future. Subtopics within this course include: basic energy concepts; hydro energy; geothermal energy; wind power; solar thermal energy; and case studies on renewable energy systems.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:19:14| admin | INSERTION | 1, 3, Back-End Web Development Project, 6, In this course, you will learn about the basics of how Angular works, and why Angular has emerged as a popular framework for JavaScript/TypeScript application development. You will also learn how to properly set up your development environment for creating an Angular app, including installing VS Code, Node.JS, TypeScript, and the Angular CLI.
+Students will gain a deep understanding of Node and learn how NodeJS works under the hood. Node is a technology which enables users to develop website back-ends with JavaScript. Users will learn to build both: APIs for Android back-ends as well as back-ends for web applications. This includes user authentications, security, and data storage using SQL. The aim is to turn the students into professional Node developers capable of developing, testing, and deploying real-world production applications.
+Grading: 80% Exam 20% Participation| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:20:15| admin | INSERTION | 1, 4, Software Engineering, 6, In this course, students will learn to build large-scale software systems. The content of this course will be the entire process of software development from requirement elicitation to software design and testing. In this process, students will especially learn how to structure the architecture of complex programs.
+
+Grading: 100% Exam| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:20:52| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:20:54| admin | INSERTION | 1, 4, Marketing & Sales with campaign development, 6, This course clarifies key marketing methods and concepts relevant for startups and entrepreneurs in general. Students will learn to answer key marketing questions such as “what and how am I selling to whom?” by understanding customer needs and designing customer-centric marketing campaigns. The course shows students how to leverage limited resources for their marketing efforts and how to develop a competitive advantage.
+
+Grading: 70% Assignments 30% Project| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:21:55| admin | INSERTION | 1, 4, Network Principles & Architecture, 6, This course prepares students to understand business analytics and become leaders in these areas in business organizations. This course teaches the scientific process of transforming data into insights for making better business decisions. It covers the methodologies, issues, and challenges related to analyzing business data. It will illustrate the processes of analytics by allowing students to apply business analytics algorithms and methodologies to business problems. The use of examples places business analytics techniques in context and teaches students how to avoid the common pitfalls, emphasizing the importance of applying proper business analytics techniques.
+
+Grading: 100% Exam| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:23:07| admin | INSERTION | 1, 4, Entrepreneurial Opportunities & Venture Creation in Burkina Faso, 6, This course involves key concepts for ideating and evaluating business opportunities. Different techniques and methods for ideation such as design thinking will be presented and practiced. Afterward, students will learn how to test, validate, and prototype their idea based on three key factors: desirability, viability, and feasibility.
+
+Grading: 60% Assignments 40% Presentation| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:23:17| Kambou | UPDATE | NOM_PERE = 'Robert Miyazaki', PERE_PROFESSION = 'Manga drawer', NOM_MERE = 'Nishiki Nishio', MERE_PROFESSION = 'Voice Actress', MOTIVATION = 'Maths: 17
+Logic: 16
+English: 20', OBSERVATION = 'very passionated by IT and design', STATUT = 'bourse_waiting', RECOMMENDATION = 'Ken Kaneki'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:23:44| admin | INSERTION | 1, 4, Mobile Development, 6, In teams, the students will develop first a website with the help of the acquired programming skills through the web development courses and then transform that into a mobile application. Again, this can also be done via Upwork, where students will have the possibility to work on real-life requests.
+
+Grading: 100% Project| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:24:07| admin | INSERTION | 5, 7, English EE, 6, The focus of the course is on becoming a better communicator. This includes presentation skills, negotiation skills, and debating skills. The course incorporates topics of interest to the students and the teacher (e.g. sports or politics) and students get the task to either hold a presentation, negotiate about a topic, or improve their debating skills. The emphasis is not on the discussed topic but should be on body language, articulation, and confidence. This course is a learning-by-doing course. Students are given multiple research tasks, which they need to solve using internet research. A teacher, experienced with Research, can emphasize some key points and show shortcuts using the Google Search Engine.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:24:52| admin | INSERTION | 5, 7, Methodology of academic studies, 6, literature studies, project work, exam preparation, group works…
+
+optional 2-3 days seminar| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:25:08| admin | INSERTION | 4, 5, Data Science & Python, 6, Focus on Python data structures, and work with string, list, and range sequences. Discover the power of list iteration, and learn about string and list methods. From there, get the details on file input and output—open files, read them, add to them, close them, and more. At the end of the course, you’ll be able to slice strings into substrings, create lists, iterate through them, import files, and use file append mode, along with a lot of other practical Python tasks, as you get started coding.
+
+Grading: 50% Project 50% Exam| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:25:17| Kambou | UPDATE | NOM_PERE = 'Kabore Boukary', PERE_PROFESSION = 'Computer Scientist', NOM_MERE = 'Zongo Marth', MERE_PROFESSION = 'Computer Scientist', MOTIVATION = 'Maths: 15
+Logic: 14
+English: 16', OBSERVATION = 'Auto didact, and loves design', STATUT = 'bourse_waiting', RECOMMENDATION = 'Ouedraogo Boukary'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:25:46| admin | INSERTION | 4, 5, Business Ethics, 6, This class is a basic introduction to most preeminent concepts, problems, discussions, and theories in the field of business ethics. Although this class is primarily theoretical, attention will be paid to practical moral problems related to business. Students will be expected to engage in independent moral reasoning. Students are encouraged to bring their own experiences and ideas to bear on issues discussed in class.
+
+Grading: 100% Exam| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:25:49| admin | INSERTION | 5, 2, Mathematics II, 6, This course equips students with a deeper understanding of mathematical terms, structural contexts, ways of thinking and methods required for an application in electrical engineering. They will master more complex practical mathematical-technical problems analytically and numerically with the help of suitable software tools and to critically evaluate this solution. Subtopics within this course include: rows; multidimensional analysis; vector analysis; and numerical methods.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:26:26| admin | INSERTION | 4, 5, Business Model Evolution, 6, This course introduces relevant business models and their key characteristics. Students will learn how to redesign business models in order to increase profits or to respond to market changes. Main part of the course is a practical application in which student teams choose a specific existing business model of a company and rethink how the company does business in the future. Students will be continuously provided with guidance and pitch their business model evolution ideas during a final presentation.
+
+Grading: 100% Project and Presentation| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:26:56| admin | INSERTION | 4, 5, Planning, Building, Pitching, 6, This course involves the practical application of theoretical concepts in entrepreneurship that students learned in previous courses. The core of this course is a real-world project in which students conceptualize and design a new product or service concept in a team. Student teams can either work on actual development problems with industry partners or conceptualize their own venture. They are guided by mentors and project partners along the way. Several input sessions on subjects such as ideation, prototyping, and business planning take place during the course. Students apply these input sessions directly in their project and present their progress continuously in front of the class. The goal is to develop a prototype and business model for the respective problem and present these at the final product fair.
+
+Grading: 70% Assignments 30% Presentation| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:28:00| Kambou | UPDATE | NOM_PERE = 'Nana Jeremie', PERE_PROFESSION = 'Driver', NOM_MERE = 'Bouda Fatim', MERE_PROFESSION = 'Policeman', MOTIVATION = 'Maths: 10
+Logic: 12
+English: 13', OBSERVATION = 'Have to follow extra courses', STATUT = 'bourse_waiting', RECOMMENDATION = 'Semde Salif'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:29:47| Kambou | UPDATE | NOM_PERE = 'Birba Moussa', PERE_PROFESSION = 'Merchant', NOM_MERE = 'Kabore Oumou', MERE_PROFESSION = 'N.D', MOTIVATION = 'Maths: 17
+Logic: 14
+English: 11', OBSERVATION = 'Good student, must complet an english Test', STATUT = 'bourse_waiting', RECOMMENDATION = 'Yameogo Felix'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:31:46| Kambou | UPDATE | NOM_PERE = 'Sasuke Ouedraogo', PERE_PROFESSION = 'Lawyer', NOM_MERE = 'Kabre Tsunade', MERE_PROFESSION = 'IT test', MOTIVATION = 'Maths: 10
+Logic: 9
+English: 15', OBSERVATION = 'Have to improve logic and maths skill for programming', STATUT = 'bourse_waiting', RECOMMENDATION = 'Naruto'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 02:33:31| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:35:18| MaximeBako | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:37:57| OlivierTindano | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:40:43| IsidoreKOURAOGO | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:41:07| IsidoreKOURAOGO | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:41:31| IsidoreKOURAOGO | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:45:35| Logoudoro | INSERTION | 35, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:46:04| Logoudoro | INSERTION | 6, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:46:04| Logoudoro | INSERTION | 27, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:46:04| Logoudoro | INSERTION | 35, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:46:27| Logoudoro | INSERTION | 6, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:46:27| Logoudoro | INSERTION | 27, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:46:27| Logoudoro | INSERTION | 12, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:46:27| Logoudoro | INSERTION | 35, 1, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:47:29| Logoudoro | INSERTION | 33, 4, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 02:49:08| admin | INSERTION | 6, 3, Electronics, 6, This course gives students an understanding of the fundamentals and in-depth relationships in power electronics. Students will not only learn about electrical machines and their use in various industrial applications but also about the concepts of electrical energy supply. Subtopics within this course include: passive components; Diodes; Field-effect transistors; Differential and operational amplifiers; and control and regulation concepts for electrical machines.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:50:18| admin | INSERTION | 6, 3, Measurement- and regulation techniques, 3, Measurement- and regulation techniques enables students to independently solve typical tasks in the measurement of electrical and non-electrical quantities and estimate the measurement uncertainty of the result. This course gives students the ability to develop suitable measurement concepts, select suitable sensors and measuring instruments and operate them correctly. Subtopics within this course include: Structures of measuring equipment; Properties and areas of application of basic measurement methods; Mode of operation and operation of important measuring instruments; Measurement principles, properties and applications of important sensors; and an introduction to components, interfaces and programs (LabVIEW) for computer-aided measurement technology.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:51:37| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 02:52:19| admin | INSERTION | 35, 2021-06-10, 2021-06-15, , 2| survey_set
+<<<<<<< Updated upstream
+| 06/05/2021 02:52:40| admin | INSERTION | 5, 2, Scientific work in the laboratory, 3, In this practical module, students are taught how to work scientifically in the laboratory. In small groups (2 to 3 students) different expressives have to be carried out. From experiment to experiment, the requirements and complexity are increased. One focus of all experiments is clean documentation, e.g. in the form of a test protocol with the following contents: a) Question b) List of materials c) Test setup d) Experiment performance e) Observation f) Evaluation and interpretation.| module
+<<<<<<< Updated upstream
+| 06/05/2021 02:55:34| admin | INSERTION | 33, 2021-06-25, 2021-06-26, This is the course feedback survey for [ENTER COURSE NAME]. We use this survey to improve the quality of teaching at BIT. Please be honest in providing your feedback, the answers are completely undisclosed and anonymous., 2| survey_set
+<<<<<<< Updated upstream
+| 06/05/2021 02:58:36| admin | INSERTION | 6, 2021-06-20, 2021-06-23, This is the course feedback survey for [ENTER COURSE NAME]. We use this survey to improve the quality of teaching at BIT. Please be honest in providing your feedback, the answers are completely undisclosed and anonymous., 2| survey_set
+<<<<<<< Updated upstream
+| 06/05/2021 02:59:38| admin | INSERTION | 12, 2021-06-25, 2021-06-29, This is the course feedback survey for [ENTER COURSE NAME]. We use this survey to improve the quality of teaching at BIT. Please be honest in providing your feedback, the answers are completely undisclosed and anonymous., 2| survey_set
+<<<<<<< Updated upstream
+| 06/05/2021 03:09:45| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Maths: 15
+Logic: 12
+English: 13', OBSERVATION = 'Very impressive student', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:09:54| admin | UPDATE | BOURSE = 
+                                                1, MOTIVATION = 'Maths: 12
+Logic: 12
+English: 16', OBSERVATION = 'Feel at ease in English', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:10:02| admin | UPDATE | BOURSE = 
+                                                3, MOTIVATION = 'Maths: 15
+Logic: 14 
+English: 15', OBSERVATION = 'already knows basics in programming', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:10:12| admin | UPDATE | BOURSE = 
+                                                6, MOTIVATION = 'Maths: 17
+Logic: 14
+English: 12', OBSERVATION = 'Will have to not be to quiet', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:10:20| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Maths: 14
+Logic: 15
+English: 18', OBSERVATION = 'High prestance and very eloquant', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:10:27| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Maths: 17
+Logic: 16
+English: 20', OBSERVATION = 'very passionated by IT and design', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:10:35| admin | UPDATE | BOURSE = 
+                                                3, MOTIVATION = 'Maths: 13
+Logic: 17
+English: 18', OBSERVATION = 'Enthusiastic girl.
+Loves Programming', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:10:49| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Maths: 10
+Logic: 9
+English: 15', OBSERVATION = 'Have to improve logic and maths skill for programming', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:10:56| admin | UPDATE | BOURSE = 
+                                                3, MOTIVATION = 'Maths: 15
+Logic: 15
+English: 15', OBSERVATION = 'Good in expression. Already show eloquence', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:11:01| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Maths: 18
+Logic: 13
+English: 13', OBSERVATION = 'Must follow English Courses', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:11:06| admin | UPDATE | BOURSE = 
+                                                4, MOTIVATION = 'Maths: 16
+Logic: 16
+English: 20', OBSERVATION = 'Best in English expression', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:11:11| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Maths: 13
+Logic: 17
+English: 17', OBSERVATION = 'Feel at ease in English', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:11:17| admin | UPDATE | BOURSE = 
+                                                3, MOTIVATION = 'Maths: 15
+Logic: 14
+English: 16', OBSERVATION = 'Auto didact, and loves design', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:11:23| admin | UPDATE | BOURSE = 
+                                                3, MOTIVATION = 'Maths: 10
+Logic: 12
+English: 13', OBSERVATION = 'Have to follow extra courses', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:11:29| admin | UPDATE | BOURSE = 
+                                                2, MOTIVATION = 'Maths: 17
+Logic: 14
+English: 11', OBSERVATION = 'Good student, must complet an english Test', STATUT = 'enabled'| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:13:46| Logoudoro | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:14:02| Logoudoro | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:17:37| Kambou | INSERTION | 33, 4, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 03:17:37| Kambou | INSERTION | 40, 4, 2| enseigner
+<<<<<<< Updated upstream
+| 06/05/2021 03:19:01| admin | UPDATE | SURVEY_DESCRIPTION = 'This is the course feedback survey for [ENTER COURSE NAME]. We use this survey to improve the quality of teaching at BIT. Please be honest in providing your feedback, the answers are completely undisclosed and anonymous.', START_DATE = '2021-06-10', END_DATE = '2021-06-15'| survey_set
+<<<<<<< Updated upstream
+| 06/05/2021 03:21:06| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:21:17| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:22:06| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:23:09| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:27:36| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:27:43| Kambou | Connexion | Connection Rejected| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:28:06| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:29:33| Aissatou | INSERTION | bs00001, bs00001, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:29:33| Aissatou | INSERTION | bs00001, Olivia, Sankara, Female, 2004-06-04, Bkhdjjdjdjz, 0, test@gmail.com, 0, Bac D, 14.000, Nana, Computer Science, Ouedraogo, Accountant, Philip Zinda, Bazie Giovanni, enabled, 20| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:29:33| Aissatou | INSERTION | 2, bs00001, 4, 06/05/2021 03:29:33, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 03:29:33| Aissatou | INSERTION | bs00001, 2, Maths: 15
+Logic: 12
+English: 13, Very impressive student, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 03:29:33| Aissatou | INSERTION | 1, 300000 F CFA, 200000, 06/05/2021 03:29:33| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 03:29:33| Aissatou | INSERTION | 7, 200000, 06/05/2021 03:29:33, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 03:29:33| Aissatou | DELETION | ID_NEW_ETUDIANT = 1| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:36:07| admin | INSERTION | Code1, Trends in computer science engineering and Information Technology, Springer, 2011-09-11, 0, new, livre1.jpg, free| documents
+<<<<<<< Updated upstream
+| 06/05/2021 03:38:05| admin | INSERTION | Code2, Xamarin Mobile Application Development, Dan Hermes, 2013-06-11, 0, new, livre2.jpg, free| documents
+<<<<<<< Updated upstream
+| 06/05/2021 03:39:49| admin | INSERTION | Code3, Mobile Design Pattern Gallery, Theresa Nelli, 2016-06-11, 0, new, livre3.jpg, free| documents
+<<<<<<< Updated upstream
+| 06/05/2021 03:50:07| admin | INSERTION | Code5, JavaScript and JQuery: Interactive Front-End Web Development, Jon Duckett, 2017-06-11, 1, good, livre5.jpg, free| documents
+<<<<<<< Updated upstream
+| 06/05/2021 03:53:28| admin | INSERTION | Code4, Practical PhP7 Mysql8 and MariaDB website Databases, Adrian West, Steve PrettyMan, 2015-08-11, 1, good, livre4.jpg, free| documents
+<<<<<<< Updated upstream
+| 06/05/2021 03:57:54| Aissatou | INSERTION | bs00002, bs00002, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:57:54| Aissatou | INSERTION | bs00002, Salifou, SEMDE, Male, 1998-09-27, B11320112, 00 226 71 13 44 86, lyfsosemde2@gmail.com, 00 226 70 98 54 85, Bac D, 14.650, Bazie, Giovanni, Sawadogo, Mariam, Lycée Provincial de Koudougou, Nana Jeremie, enabled, 21| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:57:54| Aissatou | INSERTION | 1, bs00002, 4, 06/05/2021 03:57:54, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 03:57:54| Aissatou | INSERTION | bs00002, 1, Maths: 12
+Logic: 12
+English: 16, Feel at ease in English, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 03:57:54| Aissatou | INSERTION | 2, 450000 F CFA, 200000, 06/05/2021 03:57:54| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 03:57:54| Aissatou | INSERTION | 2, 200000, 06/05/2021 03:57:54, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 03:57:54| Aissatou | DELETION | ID_NEW_ETUDIANT = 2| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:36| Aissatou | INSERTION | bs00003, bs00003, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:36| Aissatou | INSERTION | bs00003, Sanou, Mariam, Female, 2002-06-06, B225637, 73578309, test2@gmail.com, 78360937, Bac F, 13.000, Sanou Lougoudoro, Computer Sciencetist, Sankara Olivia, Lecturer, Nazi Boni, Sanou Lougoudoro, enabled, 22| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:36| Aissatou | INSERTION | 3, bs00003, 6, 06/05/2021 03:58:36, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:36| Aissatou | INSERTION | bs00003, 3, Maths: 15
+Logic: 14 
+English: 15, already knows basics in programming, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:36| Aissatou | INSERTION | 3, 150000 F CFA, 75000, 06/05/2021 03:58:36| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:36| Aissatou | INSERTION | 3, 75000, 06/05/2021 03:58:36, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:36| Aissatou | DELETION | ID_NEW_ETUDIANT = 3| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:59| Aissatou | INSERTION | bs00004, bs00004, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:59| Aissatou | INSERTION | bs00004, Emmanuel, YARO, Male, 1999-12-31, B113201322, 00 226 71 13 44 86, lyfsosemde112@gmail.com, 00 226 74 98 54 85, Bac C, 16.000, Nana Jeremie, Driver, Bouda Fatim, Policeman, LPK, Semde Salif, enabled, 23| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:59| Aissatou | INSERTION | 3, bs00004, 1, 06/05/2021 03:58:59, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:59| Aissatou | INSERTION | bs00004, 3, Maths: 10
+Logic: 12
+English: 13, Have to follow extra courses, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:59| Aissatou | INSERTION | 4, 137500 F CFA, 100000, 06/05/2021 03:58:59| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:59| Aissatou | INSERTION | 4, 100000, 06/05/2021 03:58:59, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 03:58:59| Aissatou | DELETION | ID_NEW_ETUDIANT = 13| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:09| Kambou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:18| Aissatou | INSERTION | bs00005, bs00005, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:18| Aissatou | INSERTION | bs00005, Lougougnara, SANOU, Male, 2005-06-01, B7451230, 56569635, lougougnara@gmail.com, 9893284, Bac D, 14.000, Sanou Mahamadi, Farmer, Sessouma Alimatou, Merchant, LMK, Sanou Lougoudoro, enabled, 24| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:18| Aissatou | INSERTION | 6, bs00005, 1, 06/05/2021 03:59:18, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:18| Aissatou | INSERTION | bs00005, 6, Maths: 17
+Logic: 14
+English: 12, Will have to not be to quiet, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:18| Aissatou | INSERTION | 5, 550000 F CFA, 200000, 06/05/2021 03:59:18| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:18| Aissatou | INSERTION | 5, 200000, 06/05/2021 03:59:18, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:18| Aissatou | DELETION | ID_NEW_ETUDIANT = 4| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:30| Aissatou | INSERTION | bs00006, bs00006, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:30| Aissatou | INSERTION | bs00006, Axel, Zongo, Male, 2000-02-04, B7383883, 73578310, test3@gmail.com, 78360923, Bac D, 15.000, Zongo Marc, Architect, Sawadogo Joceline, Nurse, Lycée Provincial de Banfora, Gampine Aristide, enabled, 25| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:30| Aissatou | INSERTION | 2, bs00006, 3, 06/05/2021 03:59:30, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:30| Aissatou | INSERTION | bs00006, 2, Maths: 14
+Logic: 15
+English: 18, High prestance and very eloquant, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:30| Aissatou | INSERTION | 6, 275000 F CFA, 200000, 06/05/2021 03:59:30| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:30| Aissatou | INSERTION | 6, 200000, 06/05/2021 03:59:30, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 03:59:30| Aissatou | DELETION | ID_NEW_ETUDIANT = 5| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:08| Aissatou | INSERTION | bs00007, bs00007, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:08| Aissatou | INSERTION | bs00007, Pelagie, KANZIE, Female, 2002-09-12, B13212343, 00 226 71 17 44 87, lyfsosemde3@gmail.com, 00 226 70 98 54 85, Bac D, 13.250, Bazie Giovanni, Computer Scientist, Ouedraogo Ramata, Consultant in Urbanism, College Saint-Joseph Moukassa, Bazie Giovanni, enabled, 26| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:08| Aissatou | INSERTION | 3, bs00007, 4, 06/05/2021 04:00:08, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:08| Aissatou | INSERTION | bs00007, 3, Maths: 13
+Logic: 17
+English: 18, Enthusiastic girl.
+Loves Programming, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:08| Aissatou | INSERTION | 7, 150000 F CFA, 25000, 06/05/2021 04:00:08| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:08| Aissatou | INSERTION | 7, 25000, 06/05/2021 04:00:08, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:08| Aissatou | DELETION | ID_NEW_ETUDIANT = 6| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:36| Aissatou | INSERTION | bs00008, bs00008, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:36| Aissatou | INSERTION | bs00008, Soumaila, SANOU, Male, 1995-06-04, B4451230, 34809635, soumaila@gmail.com, 4534324, Bac C, 17.000, Sanou Lougoudoro, Computer Scientist, Sawadogo Elisabeth, Singer, lpk, Sanou Lougoudoro, enabled, 27| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:36| Aissatou | INSERTION | 3, bs00008, 3, 06/05/2021 04:00:36, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:36| Aissatou | INSERTION | bs00008, 3, Maths: 15
+Logic: 15
+English: 15, Good in expression. Already show eloquence, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:36| Aissatou | INSERTION | 8, 137500 F CFA, 100000, 06/05/2021 04:00:36| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:36| Aissatou | INSERTION | 8, 100000, 06/05/2021 04:00:36, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:36| Aissatou | DELETION | ID_NEW_ETUDIANT = 7| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:54| Aissatou | INSERTION | bs00009, bs00009, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:54| Aissatou | INSERTION | bs00009, Orochi, YASUKE, Male, 1999-06-04, B873839, 22674439769, yasuke@gmail.com, 2267456799, Bac D, 12.000, Kenpachi Zaraki, Martial Art trainer, Ishiki Carine, Manga drawer, Provincial, Orochimaru, enabled, 28| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:54| Aissatou | INSERTION | 4, bs00009, 3, 06/05/2021 04:00:54, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:54| Aissatou | INSERTION | bs00009, 4, Maths: 16
+Logic: 16
+English: 20, Best in English expression, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:54| Aissatou | INSERTION | 9, 0 F CFA, 0, 06/05/2021 04:00:54| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:54| Aissatou | INSERTION | 9, 0, 06/05/2021 04:00:54, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:00:54| Aissatou | DELETION | ID_NEW_ETUDIANT = 8| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:01:52| Aissatou | INSERTION | bs00010, bs00010, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:01:52| Aissatou | INSERTION | bs00010, Mariam, SANOU, Female, 1998-05-04, B348482004, 55369635, mariam@gmail.com, 92098932, Bac D, 17.000, Sebgo Abdoul Fatao, Drug Store onwer, Zongo Angel, Doctor, LSK, Yameogo Philipe, enabled, 29| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:01:52| Aissatou | INSERTION | 2, bs00010, 3, 06/05/2021 04:01:52, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:01:52| Aissatou | INSERTION | bs00010, 2, Maths: 18
+Logic: 13
+English: 13, Must follow English Courses, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:01:52| Aissatou | INSERTION | 10, 275000 F CFA, 200000, 06/05/2021 04:01:52| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:01:52| Aissatou | INSERTION | 10, 200000, 06/05/2021 04:01:52, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:01:52| Aissatou | DELETION | ID_NEW_ETUDIANT = 9| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:05| Aissatou | INSERTION | bs00011, bs00011, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:05| Aissatou | INSERTION | bs00011, Carine, YAMEOGO, Female, 1998-09-04, B00123432, 00226 73455432, salifsemde700@gmail.com, 00 226 74 98 54 85, Bac D, 12.480, Yameogo Philipe, IT manager, Zongo Elie, English Teacher, LPAS, Belem Mahamadi, enabled, 30| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:05| Aissatou | INSERTION | 2, bs00011, 4, 06/05/2021 04:02:05, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:05| Aissatou | INSERTION | bs00011, 2, Maths: 13
+Logic: 17
+English: 17, Feel at ease in English, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:05| Aissatou | INSERTION | 11, 300000 F CFA, 200000, 06/05/2021 04:02:05| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:05| Aissatou | INSERTION | 11, 200000, 06/05/2021 04:02:05, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:05| Aissatou | DELETION | ID_NEW_ETUDIANT = 10| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:17| Aissatou | INSERTION | bs00012, bs00012, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:17| Aissatou | INSERTION | bs00012, Onizuka, Eikichi, Male, 1997-06-04, B289012, 22674439768, onizuka@gmail.com, 2267456790, Bac F, 15.000, Robert Miyazaki, Manga drawer, Nishiki Nishio, Voice Actress, CFCPK, Ken Kaneki, enabled, 31| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:17| Aissatou | INSERTION | 2, bs00012, 3, 06/05/2021 04:02:17, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:17| Aissatou | INSERTION | bs00012, 2, Maths: 17
+Logic: 16
+English: 20, very passionated by IT and design, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:17| Aissatou | INSERTION | 12, 275000 F CFA, 200000, 06/05/2021 04:02:17| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:17| Aissatou | INSERTION | 12, 200000, 06/05/2021 04:02:17, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:17| Aissatou | DELETION | ID_NEW_ETUDIANT = 11| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:36| Aissatou | INSERTION | bs00013, bs00013, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:36| Aissatou | INSERTION | bs00013, Boukary, KABORE, Male, 2000-01-12, B113201122, 00 226 71 13 44 86, lyfsosemde12@gmail.com, 00 226 74 98 54 85, Bac C, 11.360, Kabore Boukary, Computer Scientist, Zongo Marth, Computer Scientist, LPAS, Ouedraogo Boukary, enabled, 32| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:36| Aissatou | INSERTION | 3, bs00013, 1, 06/05/2021 04:02:36, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:36| Aissatou | INSERTION | bs00013, 3, Maths: 15
+Logic: 14
+English: 16, Auto didact, and loves design, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:36| Aissatou | INSERTION | 13, 137500 F CFA, 50000, 06/05/2021 04:02:36| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:36| Aissatou | INSERTION | 13, 50000, 06/05/2021 04:02:36, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:36| Aissatou | DELETION | ID_NEW_ETUDIANT = 12| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:47| Aissatou | INSERTION | bs00014, bs00014, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:47| Aissatou | INSERTION | bs00014, Abdoul Razack, Birba, Male, 2001-01-04, B738385673, 73578363, test4@gmail.com, 783609354, Bac D, 11.920, Birba Moussa, Merchant, Kabore Oumou, N.D, Sainte Famille, Yameogo Felix, enabled, 33| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:47| Aissatou | INSERTION | 2, bs00014, 1, 06/05/2021 04:02:47, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:47| Aissatou | INSERTION | bs00014, 2, Maths: 17
+Logic: 14
+English: 11, Good student, must complet an english Test, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:47| Aissatou | INSERTION | 14, 275000 F CFA, 200000, 06/05/2021 04:02:47| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:47| Aissatou | INSERTION | 14, 200000, 06/05/2021 04:02:47, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:02:47| Aissatou | DELETION | ID_NEW_ETUDIANT = 14| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:03:03| Aissatou | INSERTION | bs00015, bs00015, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:03:03| Aissatou | INSERTION | bs00015, SAWADOGO, Sakura, Female, 2001-06-01, B2890190, 22674439760, hets@gmail.com, 2267456790, Bac D, 16.000, Sasuke Ouedraogo, Lawyer, Kabre Tsunade, IT test, Le réveil, Naruto, enabled, 34| etudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:03:03| Aissatou | INSERTION | 2, bs00015, 6, 06/05/2021 04:03:03, 2| inscription
+<<<<<<< Updated upstream
+| 06/05/2021 04:03:03| Aissatou | INSERTION | bs00015, 2, Maths: 10
+Logic: 9
+English: 15, Have to improve logic and maths skill for programming, 2| historique_bourse
+<<<<<<< Updated upstream
+| 06/05/2021 04:03:03| Aissatou | INSERTION | 15, 300000 F CFA, 300000, 06/05/2021 04:03:03| scolarite
+<<<<<<< Updated upstream
+| 06/05/2021 04:03:03| Aissatou | INSERTION | 15, 300000, 06/05/2021 04:03:03, 3| historique_payement
+<<<<<<< Updated upstream
+| 06/05/2021 04:03:03| Aissatou | DELETION | ID_NEW_ETUDIANT = 15| newetudiant
+<<<<<<< Updated upstream
+| 06/05/2021 04:10:55| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:16:19| admin | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 06/05/2021 04:16:32| admin | INSERTION | Code6, Web Animation using JavaScript: Develop & Design, Julian Shapiro, 2015-08-11, 0, new, livre6.jpg, free| documents
+<<<<<<< Updated upstream
+| 06/05/2021 04:17:08| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/10/2021 16:50:20| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/10/2021 16:51:58| bs00002 | INSERTION | bs00002, Programming C, bjvghghc, logo.png, mklmklmnknjkl, 09/10/2021 16:51:58| data_bank
+<<<<<<< Updated upstream
+| 09/27/2021 16:15:53| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:19:17| Aissatou | INSERTION | 1, bs00002, 1, 09/27/2021 16:19:17, 2| inscription
+<<<<<<< Updated upstream
+| 09/27/2021 16:19:17| Aissatou | INSERTION | 6, 412500, 125000, 09/27/2021 16:19:17| scolarite
+<<<<<<< Updated upstream
+| 09/27/2021 16:19:17| Aissatou | INSERTION | 6, 125000, 09/27/2021 16:19:17, 3| historique_payement
+<<<<<<< Updated upstream
+| 09/27/2021 16:30:32| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:32:51| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:34:36| Rodrigue | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:43:59| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:47:51| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:48:30| Kambou | INSERTION | bs00002, 1, 2| notes
+<<<<<<< Updated upstream
+| 09/27/2021 16:49:53| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:50:56| Aissatou | UPDATE | MONTANT_PAYE = 275000| scolarite
+<<<<<<< Updated upstream
+| 09/27/2021 16:50:56| Aissatou | INSERTION | 5, 245001, 09/27/2021 16:50:56, 3| historique_payement
+<<<<<<< Updated upstream
+| 09/27/2021 16:52:53| Aissatou | INSERTION | bs00005, bs00005, student, user_24px.png, enable| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:52:53| Aissatou | INSERTION | bs00005, Lougoudoro, SANOU, Male, 2001-02-08, B458789562, 22659878954, sanoulougoudoro@gmail.com, 22653214589, Bac D, 15.730, Semde Salifou, Teacher, Kone Amour, Student, LDN, Gnanou Inza, enabled, 13| etudiant
+<<<<<<< Updated upstream
+| 09/27/2021 16:52:53| Aissatou | INSERTION | 4, bs00005, 1, 09/27/2021 16:52:53, 2| inscription
+<<<<<<< Updated upstream
+| 09/27/2021 16:52:53| Aissatou | INSERTION | bs00005, 4, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, 2| historique_bourse
+<<<<<<< Updated upstream
+| 09/27/2021 16:52:53| Aissatou | INSERTION | 6, 0, 09/27/2021 16:52:53, 3| historique_payement
+<<<<<<< Updated upstream
+| 09/27/2021 16:52:53| Aissatou | DELETION | ID_NEW_ETUDIANT = 6| newetudiant
+<<<<<<< Updated upstream
+| 09/27/2021 16:56:34| Guest | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 16:57:51| admin | UPDATE | DATE_FIN = '2021-09-27'| annee_scolaire
+<<<<<<< Updated upstream
+| 09/27/2021 16:57:51| admin | INSERTION | 2021-09-27, 2021-12-30, 2021-12-31, 2022-01-25, 2022-01-31| annee_scolaire
+<<<<<<< Updated upstream
+| 09/27/2021 16:58:34| Aissatou | INSERTION | 2, bs00001, 2, 09/27/2021 16:58:34, 3| inscription
+<<<<<<< Updated upstream
+| 09/27/2021 16:58:34| Aissatou | INSERTION | 8, 275000, 100000, 09/27/2021 16:58:34| scolarite
+<<<<<<< Updated upstream
+| 09/27/2021 16:58:34| Aissatou | INSERTION | 7, 100000, 09/27/2021 16:58:34, 3| historique_payement
+<<<<<<< Updated upstream
+| 09/27/2021 16:59:27| Aissatou | UPDATE | MONTANT_PAYE = 150000| scolarite
+<<<<<<< Updated upstream
+| 09/27/2021 16:59:27| Aissatou | INSERTION | 8, 50000, 09/27/2021 16:59:27, 3| historique_payement
+<<<<<<< Updated upstream
+| 09/27/2021 17:00:47| admin | UPDATE | DATE_FIN = '2021-09-27'| annee_scolaire
+<<<<<<< Updated upstream
+| 09/27/2021 17:02:49| Yaro | INSERTION | ewfe3w, f2ewf32f, Male, 2005-09-17, nan@gmail.com, 3, f344gf, 4272, 2771, g455gh5, Bac D, 12, 09/27/2021 17:02:49| newetudiant
+<<<<<<< Updated upstream
+| 09/27/2021 17:03:20| Aissatou | UPDATE | STATUT = 'in_meeting'| newetudiant
+<<<<<<< Updated upstream
+| 09/27/2021 17:03:20| Aissatou | INSERTION | 7, 2021-09-30, 21:02| entretien
+<<<<<<< Updated upstream
+| 09/27/2021 17:24:14| Kambou | UPDATE | DATE_ENTRETIEN = '2021-09-30', HEURE = '21:02:00'| entretien
+<<<<<<< Updated upstream
+| 09/27/2021 19:12:44| Aissatou | Connexion | Connected Successfully| user
+<<<<<<< Updated upstream
+| 09/27/2021 19:54:53| Guest | Connexion | Connected Successfully| user
