@@ -34,15 +34,27 @@
         if($checkStudent->rowCount()>=1){
             $error=1;
         }else{
+            // On enregistre l'eleve
             $requete = $obj->Insert('etudiant', array('MATRICULE','PRENOM','NOM', 'SEXE', 'DATE_NAISSANCE','CNIB','TELEPHONE','EMAIL','NUM_URGENCE', 'NOM_PERE', 'PROFESSION_PERE', 'NOM_MERE','PROFESSION_MERE'), array($matricule,$inscription_prenom,$inscription_nom, $inscription_sexe, $inscription_dnaiss,$inscription_cnib,$inscription_tel,$inscription_email,$inscription_tel_urg,$inscription_fath_name,$inscription_father_job,$inscription_moth_job,$inscription_moth_name));
             if($requete == 1)
             {
+                // Si l'enregistrement a est bien effectuee on effectue l'inscription
                 $subs_new_student = $obj->Insert('inscription', array('ID_BOURSE', 'MATRICULE', 'ID_CLASSE', 'DATE_INSCRIPTION','ID_ANNEE'), array(1, $matricule, $inscription_class, 'NOW()',$inscription_year));
-                $_SESSION['update_msg'] = 1;
-                $_SESSION['nom'] = $_POST['inscription_nom']; 
-                $_SESSION['prenom'] = $_POST['inscription_prenom'];
-
-                Refresh();
+                // si l'incription est bien realisee, on prepare le paiement de son scolarite
+                if($subs_new_student==1){
+                    // On recupere le montant de son scolarite
+                    $getStdAmount = $obj->Requete("SELECT * FROM classe c, inscription i,niveau n, annee_scolaire a WHERE n.ID_NIVEAU=c.ID_NIVEAU AND c.ID_CLASSE = i.ID_CLASSE AND a.ID_ANNEE = i.ID_ANNEE AND i.ID_CLASSE ='".$inscription_class."' AND i.ID_ANNEE = '".$inscription_year."' AND i.MATRICULE='".$matricule."'");
+                    if($catchStdAmount = $getStdAmount->fetch()){
+                        $prepareStdPay = $obj->Insert('scolarite',array('ID_INSCRIPTION','MONTANT_TOTAL','MONTANT_PAYE','DATE_LIMITE'),array($catchStdAmount['ID_INSCRIPTION'],$catchStdAmount['MONTANT_SCOLARITE'],0,$catchStdAmount['FIN_VERSEMENT_3']));
+                        if( $prepareStdPay==1){
+                            $_SESSION['update_msg'] = 1;
+                            $_SESSION['nom'] = $_POST['inscription_nom']; 
+                            $_SESSION['prenom'] = $_POST['inscription_prenom'];
+                            Refresh();
+                        }
+                    }
+                }
+                
             }
         }
     }

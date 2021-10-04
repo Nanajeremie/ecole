@@ -1,7 +1,7 @@
 <?php
     include '../../../utilities/QueryBuilder.php';
-    $title = 'Payment\'s List';
-    $breadcrumb = 'All Students';
+    $title = 'Liste des paiements';
+    $breadcrumb = 'Liste des eleves';
     if (isset($_POST['set_matricule']))
     {
         extract($_POST);
@@ -12,8 +12,7 @@
 
     $obj = new QueryBuilder();
     $status = array();
-    $all_new_payment = $obj->Requete('SELECT * FROM etudiant etu, inscription insc, scolarite sco WHERE sco.MONTANT_TOTAL>sco.MONTANT_PAYE AND etu.MATRICULE = insc.MATRICULE AND sco.ID_INSCRIPTION = insc.ID_INSCRIPTION AND insc.ID_ANNEE="'.getAnnee(0)['ID_ANNEE'].'"');
-    
+    $all_new_payment = $obj->Requete('SELECT * FROM etudiant etu, classe c, niveau n, inscription insc, scolarite sco WHERE n.ID_NIVEAU = c.ID_NIVEAU AND c.ID_CLASSE = insc.ID_CLASSE AND etu.MATRICULE = insc.MATRICULE AND sco.ID_INSCRIPTION = insc.ID_INSCRIPTION AND insc.ID_ANNEE=(SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1)');
     
 ?>
     <div class="container-fluid" id="fenetre">
@@ -23,7 +22,7 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-6">
-                                <h4 class="text-bluesky">Student's List</h4>
+                                <h4 class="text-bluesky">Liste complete des eleves</h4>
                             </div>
                         </div>
                     </div>
@@ -32,41 +31,37 @@
                         
                         <form action="" method="post">
                             <!--input that keps the matricule of the clicked buttton-->
-                            <input type="text" name="matricule" id="matricule" style = "display: none">
+                            <input type="text" name="matricule" id="matricule" hidden>
 
                             <table class="table table-bordered table-hover table-responsive table-responsive-md table-responsive-lg" id="table">
                                 <thead>
                                     <tr>
                                         <th class="text-truncate">Action</th>
                                         <th class="text-truncate">Matricule</th>
-                                        <th class="text-truncate">First Name</th>
-                                        <th class="text-truncate">Last Name</th>
-                                        <th class="text-truncate">Gender</th>
-                                        <th class="text-truncate">Class</th>
-                                        <th class="text-truncate">Field</th>
-                                        <th class="text-truncate">Payed amount</th>
-                                        <th class="text-truncate">Remaining amount</th>
-                                        <th class="text-truncate">Total amount</th>
+                                        <th class="text-truncate">NOM</th>
+                                        <th class="text-truncate">PRENOM</th>
+                                        <th class="text-truncate">SEXE</th>
+                                        <th class="text-truncate">Classe</th>
+                                        <th class="text-truncate">NIVEAU</th>
+                                        <th class="text-truncate">PAYEE</th>
+                                        <th class="text-truncate">RESTANTE</th>
+                                        <th class="text-truncate">TOTAL</th>
                                     </tr>
                                 </thead>
                                 
                                 <tbody id="payment">
                                     <?php
-                                        while ($the_new_payment=$all_new_payment->fetch())
-                                        {
-                                            $classe = $obj->Select('classe', array(), array('ID_CLASSE' => $the_new_payment['ID_CLASSE']))->fetch();
-                                            $filiere = $obj->Select('filieres', array(), array('ID_FILIERE' => $classe['ID_FILIERE']))->fetch();
-                                    ?>
+                                        while ($the_new_payment=$all_new_payment->fetch()) {?>
                                         <tr>
                                             <td class="text-truncate">
-                                                    <input class="btn btn-primary" name="set_matricule" type="submit"  value="Pay Tuition" title="<?= $the_new_payment['MATRICULE']?>" onclick="Attrib_matricule_to_input(this.title)">
+                                                <input class="btn btn-primary" name="set_matricule" type="submit"  value="Payer" title="<?= $the_new_payment['ID_INSCRIPTION']?>" onclick="Attrib_matricule_to_input(this.title)">
                                             </td>
                                             <td class="text-truncate"><?= $the_new_payment['MATRICULE']?></td>
                                             <td class="text-truncate"><?=$the_new_payment['NOM']?></td>
                                             <td class="text-truncate"><?=$the_new_payment['PRENOM']?></td>
                                             <td class="text-truncate"><?=$the_new_payment['SEXE']?></td>
-                                            <td class="text-truncate"><?=$classe['NOM_CLASSE']?></td>
-                                            <td class="text-truncate"><?=$filiere['NOM_FILIERE']?></td>
+                                            <td class="text-truncate"><?=$the_new_payment['NOM_CLASSE']?></td>
+                                            <td class="text-truncate"><?=$the_new_payment['NOM_NIVEAU']?></td>
                                             <td class="text-truncate"><?=$the_new_payment['MONTANT_PAYE']?> F cfa</td>
                                             <td class="text-truncate"><?=$the_new_payment['MONTANT_TOTAL'] - $the_new_payment['MONTANT_PAYE']?> F cfa</td>
                                             <td class="text-truncate"><?=$the_new_payment['MONTANT_TOTAL']?> F cfa</td>
@@ -80,14 +75,14 @@
                                     <tr>
                                         <th class="text-truncate">Action</th>
                                         <th class="text-truncate">Matricule</th>
-                                        <th class="text-truncate">First Name</th>
-                                        <th class="text-truncate">Last Name</th>
-                                        <th class="text-truncate">Gender</th>
-                                        <th class="text-truncate">Class</th>
-                                        <th class="text-truncate">Field</th>
-                                        <th class="text-truncate">Payed amount</th>
-                                        <th class="text-truncate">Remaining amount</th>
-                                        <th class="text-truncate">Total amount</th>
+                                        <th class="text-truncate">NOM</th>
+                                        <th class="text-truncate">PRENOM</th>
+                                        <th class="text-truncate">SEXE</th>
+                                        <th class="text-truncate">Classe</th>
+                                        <th class="text-truncate">NIVEAU</th>
+                                        <th class="text-truncate">PAYEE</th>
+                                        <th class="text-truncate">RESTANTE</th>
+                                        <th class="text-truncate">TOTAL</th>
                                     </tr>
                                 </tfoot>
                             </table>

@@ -227,7 +227,14 @@ if(isset($_POST['vali_std_upd_key']) AND $_POST['vali_std_upd_key'] =='vali_std_
     {
     $upd_student = $obj->Update('inscription', array('ID_CLASSE','ID_ANNEE'), array($inscription_class,$inscription_year),array("ID_INSCRIPTION"=>$val_id_inscription));
         if( $upd_student==1){
-            echo 1;
+            // On recupere le montant de son scolarite
+            $getStdAmount = $obj->Requete("SELECT * FROM classe c, inscription i,niveau n, annee_scolaire a,scolarite s WHERE n.ID_NIVEAU=c.ID_NIVEAU AND s.ID_INSCRIPTION = i.ID_INSCRIPTION AND c.ID_CLASSE = i.ID_CLASSE AND a.ID_ANNEE = i.ID_ANNEE AND i.ID_INSCRIPTION = '".$val_id_inscription."'");
+            if($catchStdAmount = $getStdAmount->fetch()){
+                $prepareStdPay = $obj->Update('scolarite',array('MONTANT_TOTAL','MONTANT_PAYE','DATE_LIMITE'),array($catchStdAmount['MONTANT_SCOLARITE'],$catchStdAmount['MONTANT_PAYE'],$catchStdAmount['FIN_VERSEMENT_3']),array('ID_INSCRIPTION'=>$val_id_inscription));
+                if( $prepareStdPay==1){
+                    echo 1;
+                }
+            }
         }
     }
 }

@@ -123,19 +123,8 @@
                     <div id='links' class='<?= $deroulante ?>' aria-labelledby='headingUtilities'
                         data-parent='#accordionSidebar'>
                         <div class='bg-white mx-2 py-2 collapse-inner rounded'>
-                            <h4 class="sidebar-heading text-secondary mt-3">First Payment</h4>
-                            <hr class="sidebar-divider bg-secondary">
-                            <a class='<?= active('inscription_valide.php') ?>' href='inscription_valide.php'><i class='fas fa-angle-right pr-2'></i>New Students</a>
-                            <a class='<?= active('old-student-tuition.php') ?>' href='old-student-tuition.php'><i class='fas fa-angle-right pr-2'></i>Reinscription</a>
-
-                            <h4 class="sidebar-heading text-secondary mt-3">Other Payments</h4>
-                            <hr class="sidebar-divider bg-secondary">
-                            <a class='<?= active('valide_other_paiement.php') ?>' href='valide_other_paiement.php'><i class='fas fa-angle-right pr-2'></i>Pay
-                                tuitions</a>
-
-                            <h4 class="sidebar-heading text-secondary mt-3">Payment Statistics</h4>
-                            <hr class="sidebar-divider bg-secondary">
-                            <a class='<?= active('list-payment.php') ?>' href='list-payment.php?page=list-payment'><i class='fas fa-angle-right pr-2'></i>List all Payment</a>
+                            <a class='<?= active('valide_other_paiement.php') ?>' href='valide_other_paiement.php'><i class='fas fa-angle-right pr-2'></i>Payer</a>
+                            <a class='<?= active('list-payment.php') ?>' href='list-payment.php?page=list-payment'><i class='fas fa-angle-right pr-2'></i>Historique paiements</a>
                         </div>
                     </div>
                 </li>
