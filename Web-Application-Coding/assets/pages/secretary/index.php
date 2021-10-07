@@ -8,27 +8,27 @@
     $obj = new QueryBuilder();
 
     $waiting_for_meeting = $obj->Requete("SELECT COUNT(ID_NEW_ETUDIANT) as total FROM `newetudiant` WHERE STATUT = 'pending'")->fetch();
-    $student_number = $obj->Requete("SELECT COUNT(ID_INSCRIPTION) as total FROM `inscription` WHERE ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."'")->fetch();
-    $active_canteen_suscriber = $obj->Requete("SELECT COUNT(ID_ABONNEMENT) as total FROM `abonnements` a , cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'actif' AND c.MOIS = (SELECT MONTHNAME(NOW())) AND a.ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."'")->fetch();
-    $canteen_pending_suscriber = $obj->Requete("SELECT COUNT(ID_ABONNEMENT) as total FROM `abonnements` a , cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'pending' AND a.ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."'")->fetch();
-    $current_canteen_pending = $obj->Requete("SELECT COUNT(ID_ABONNEMENT) as total FROM `abonnements` a , cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'pending' AND c.MOIS = (SELECT MONTHNAME(NOW())) AND a.ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."'")->fetch();
+    $student_number = $obj->Requete("SELECT COUNT(ID_INSCRIPTION) as total FROM `inscription` WHERE ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1)")->fetch();
+    $active_canteen_suscriber = $obj->Requete("SELECT COUNT(ID_ABONNEMENT) as total FROM `abonnements` a , cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'actif' AND c.MOIS = (SELECT MONTHNAME(NOW())) AND a.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1)")->fetch();
+    $canteen_pending_suscriber = $obj->Requete("SELECT COUNT(ID_ABONNEMENT) as total FROM `abonnements` a , cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'pending' AND a.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1)")->fetch();
+    $current_canteen_pending = $obj->Requete("SELECT COUNT(ID_ABONNEMENT) as total FROM `abonnements` a , cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'pending' AND c.MOIS = (SELECT MONTHNAME(NOW())) AND a.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1)")->fetch();
 
     $result_table_mois = ['January' , 'February' , 'March' , 'April' , 'May' , 'June' , 'July' , 'August' , 'September' , 'October' , 'November' , 'December'];
 
     // ------------------------------------------------------------------------------------------------------------------------------
 
     $canteen_suscribers = $obj ->Requete("SELECT MONTH, MAX(CNT) as maxi FROM 
-                                        ( SELECT MONTH(c.DATE_LIMITE_PAIEMENT) AS MONTH, COUNT(a.ID_ABONNEMENT) AS CNT FROM abonnements a, cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'actif' AND a.ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."' GROUP BY MONTH(c.DATE_LIMITE_PAIEMENT) 
+                                        ( SELECT MONTH(c.DATE_LIMITE_PAIEMENT) AS MONTH, COUNT(a.ID_ABONNEMENT) AS CNT FROM abonnements a, cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'actif' AND a.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1) GROUP BY MONTH(c.DATE_LIMITE_PAIEMENT) 
                                             UNION SELECT 1 , 0 UNION SELECT 2 , 0 UNION SELECT 3 , 0 UNION SELECT 4 , 0 UNION SELECT 5 , 0 UNION SELECT 6 , 0 UNION SELECT 7 , 0 UNION SELECT 8 , 0 UNION SELECT 9 , 0 UNION SELECT 10, 0 UNION SELECT 11, 0 UNION SELECT 12, 0
                                         ) AS X GROUP BY MONTH")->fetchAll();
 
     $canteen_suscribers_money = $obj ->Requete("SELECT MONTH, MAX(somme) as moneys FROM 
-                                        ( SELECT MONTH(c.DATE_LIMITE_PAIEMENT) AS MONTH, SUM(a.COST_FEES) AS somme FROM abonnements a, cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'actif' AND a.ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."' GROUP BY MONTH(c.DATE_LIMITE_PAIEMENT) 
+                                        ( SELECT MONTH(c.DATE_LIMITE_PAIEMENT) AS MONTH, SUM(a.COST_FEES) AS somme FROM abonnements a, cantine c WHERE a.ID_MOIS = c.ID_MOIS AND a.STATUT = 'actif' AND a.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1) GROUP BY MONTH(c.DATE_LIMITE_PAIEMENT) 
                                             UNION SELECT 1 , 0 UNION SELECT 2 , 0 UNION SELECT 3 , 0 UNION SELECT 4 , 0 UNION SELECT 5 , 0 UNION SELECT 6 , 0 UNION SELECT 7 , 0 UNION SELECT 8 , 0 UNION SELECT 9 , 0 UNION SELECT 10, 0 UNION SELECT 11, 0 UNION SELECT 12, 0
                                         ) AS X GROUP BY MONTH")->fetchAll();
 
     $school_fees = $obj ->Requete("SELECT MONTH, MAX(somme) as moneys FROM 
-                                        ( SELECT MONTH(h.DATE_PAYEMENT) AS MONTH, SUM(h.MONTANT) AS somme FROM inscription i , historique_payement h WHERE h.ID_INSCRIPTION = i.ID_INSCRIPTION AND i.ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."' GROUP BY MONTH(h.DATE_PAYEMENT) 
+                                        ( SELECT MONTH(h.DATE_PAYEMENT) AS MONTH, SUM(h.MONTANT) AS somme FROM inscription i , historique_payement h WHERE h.ID_INSCRIPTION = i.ID_INSCRIPTION AND i.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1) GROUP BY MONTH(h.DATE_PAYEMENT) 
                                             UNION SELECT 1 , 0 UNION SELECT 2 , 0 UNION SELECT 3 , 0 UNION SELECT 4 , 0 UNION SELECT 5 , 0 UNION SELECT 6 , 0 UNION SELECT 7 , 0 UNION SELECT 8 , 0 UNION SELECT 9 , 0 UNION SELECT 10, 0 UNION SELECT 11, 0 UNION SELECT 12, 0
                                         ) AS X GROUP BY MONTH")->fetchAll();
     foreach ($canteen_suscribers as $item) 
@@ -47,37 +47,39 @@
     }
 
     // ------------------------------------------------------------------------------------------------------------------------------
-    $pending_bookings = $obj->Requete("SELECT * FROM abonnements a , cantine c , etudiant e , classe cls, inscription i WHERE a.ID_MOIS = c.ID_MOIS  AND i.MATRICULE = e.MATRICULE AND a.MATRICULE = i.MATRICULE AND cls.ID_CLASSE = i.ID_CLASSE AND c.MOIS = (SELECT MONTHNAME(NOW())) AND a.ID_ANNEE = '".getAnnee(0)['ID_ANNEE']."' AND a.STATUT = 'pending' LIMIT 6")->fetchAll();
+    $pending_bookings = $obj->Requete("SELECT * FROM abonnements a , cantine c , etudiant e , classe cls, inscription i WHERE a.ID_MOIS = c.ID_MOIS  AND i.MATRICULE = e.MATRICULE AND a.MATRICULE = i.MATRICULE AND cls.ID_CLASSE = i.ID_CLASSE AND c.MOIS = (SELECT MONTHNAME(NOW())) AND a.ID_ANNEE =(SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1) AND a.STATUT = 'pending' LIMIT 6")->fetchAll();
 
     $canteen_cost_per_day = $obj->Requete("SELECT COST_PER_DAY FROM `cantine` LIMIT 1")->fetch();
 
-    $male_student = $obj->Requete("SELECT COUNT(e.MATRICULE) as male FROM inscription i , etudiant e WHERE e.MATRICULE = i.MATRICULE AND e.SEXE = 'Male' AND i.ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."'")->fetch();
-    $female_student = $obj->Requete("SELECT COUNT(e.MATRICULE) as female FROM inscription i , etudiant e WHERE e.MATRICULE = i.MATRICULE AND e.SEXE = 'Female' AND i.ID_ANNEE = '".getAnnee(0)["ID_ANNEE"]."'")->fetch();
-    $scholarships = $obj->Requete("SELECT COUNT(i.MATRICULE) as total FROM inscription i , bourse b WHERE i.ID_BOURSE = b.ID_BOURSE AND b.TAUX > 0 AND i.ID_ANNEE = '".getAnnee(0)['ID_ANNEE']."'")->fetch();
+    $male_student = $obj->Requete("SELECT COUNT(e.MATRICULE) as male FROM inscription i , etudiant e WHERE e.MATRICULE = i.MATRICULE AND e.SEXE = 'Male' AND i.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1)")->fetch();
+    $female_student = $obj->Requete("SELECT COUNT(e.MATRICULE) as female FROM inscription i , etudiant e WHERE e.MATRICULE = i.MATRICULE AND e.SEXE = 'Female' AND i.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1)")->fetch();
+    $scholarships = $obj->Requete("SELECT COUNT(i.MATRICULE) as total FROM inscription i , bourse b WHERE i.ID_BOURSE = b.ID_BOURSE AND b.TAUX > 0 AND i.ID_ANNEE = (SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1)")->fetch();
 
 
     // *******************************Mise a  jour de dashboard, les a jour et les out of day
     $toDay= $obj->Requete('SELECT NOW() as today FROM annee_scolaire')->fetch();
     $today=$toDay["today"];
+    // actual year
+    $actualYear = $obj->Requete("SELECT * FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1")->fetch();
     $versement=1;
 
-    if($today<=getAnnee(0)["FIN_VERSEMENT_1"])
+    if($today<=$actualYear["FIN_VERSEMENT_1"])
     {
         $versement=0.5;
     }
 
-    else if($today>getAnnee(0)["FIN_VERSEMENT_1"] AND $today<=getAnnee(0)["FIN_VERSEMENT_2"])
+    else if($today>$actualYear["FIN_VERSEMENT_1"] AND $today<=$actualYear["FIN_VERSEMENT_2"])
     {
         $versement=0.75;
     }
 
-    else if($today>getAnnee(0)["FIN_VERSEMENT_2"])
+    else if($today>$actualYear["FIN_VERSEMENT_2"])
     {
         $versement=1;
     }
 
-   $outDate= $obj->Requete("SELECT COUNT(*) as outToDate FROM scolarite s, inscription i WHERE i.ID_ANNEE='".getAnnee(0)["ID_ANNEE"]."' AND i.ID_INSCRIPTION=s.ID_INSCRIPTION AND s.MONTANT_TOTAL*'".$versement."' > s.MONTANT_PAYE")->fetch();
-   $upDate=$obj->Requete('SELECT COUNT(*) as upToDate FROM scolarite s, inscription i WHERE i.ID_ANNEE='.getAnnee(0)["ID_ANNEE"].' AND i.ID_INSCRIPTION=s.ID_INSCRIPTION AND s.MONTANT_TOTAL*'.$versement.' <= s.MONTANT_PAYE')->fetch();
+   $outDate= $obj->Requete("SELECT COUNT(*) as outToDate FROM scolarite s, inscription i WHERE i.ID_ANNEE='".$actualYear['ID_ANNEE']."' AND i.ID_INSCRIPTION=s.ID_INSCRIPTION AND s.MONTANT_TOTAL*'".$versement."' > s.MONTANT_PAYE")->fetch();
+   $upDate=$obj->Requete('SELECT COUNT(*) as upToDate FROM scolarite s, inscription i WHERE i.ID_ANNEE='.$actualYear['ID_ANNEE'].' AND i.ID_INSCRIPTION=s.ID_INSCRIPTION AND s.MONTANT_TOTAL*'.$versement.' <= s.MONTANT_PAYE')->fetch();
 
    $school_fees_payment_overview[] = $upDate['upToDate'];
    $school_fees_payment_overview[] = $outDate['outToDate'];
@@ -200,7 +202,7 @@
 
     <div class="row mt-3 mt-md-4 mt-lg-5">
         <div class="col-lg-8 my-3 my-md-3 my-lg-0">
-            <div class="card">
+            <div class="card" style="min-height: 500px;">
                 <div class="card-header">
                     <div class="row">
                         <div class="col">Canteen Booking Pending confirmation <span class="badge badge-primary ml-2"><?= $current_canteen_pending["total"] ?></span> </div>

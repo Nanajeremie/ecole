@@ -109,7 +109,7 @@
             document.getElementById("sub_body").style.overflowX="hidden"; 
                 
             //document.getElementById("wrapper").style.maxHeight=difHeight+10+"px";
-            document.getElementById("fixeHeight").style.maxHeight=side+10+"px";
+            document.getElementById("fixeHeight").style.maxHeight=side-20+"px";
             document.getElementById("fixeHeight").style.overflowY="auto";
             document.getElementById("fixeHeight").style.overflowX="hidden";
             document.getElementById("fenetre").style.maxHeight=foot+"px";

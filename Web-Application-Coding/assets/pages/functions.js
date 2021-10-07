@@ -1,3 +1,4 @@
+alert("jschjscg");
 function rename_input_update(titre) {
 	var inp = document.getElementById('id'+titre);
 	inp.name='id_user';
@@ -62,6 +63,7 @@ console.log('erewer');
 }
 //Fonction ajax pour le  paiement des frais de scolarite
 function getStudentInfo(student_info,name) {
+	
 	$("#students_head").html(name);
 	$.post(
 		'../../../ajax.php',{

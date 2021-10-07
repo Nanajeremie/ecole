@@ -36,7 +36,7 @@ session_start();
 
 					//on recupere l'extension du fichier
 					$extension_upload = $infosfichier['extension'];
-					$extension_autorisees; 
+					$extension_autorisees=[]; 
 					//on definit les extensions autorisees
 					if (is_numeric($type)) 
 					{
@@ -91,7 +91,7 @@ session_start();
 				$infosfichier = pathinfo($_FILES[$inputName]['name']);
 				//on recupere l'extension du fichier
 				$extension_upload = $infosfichier['extension'];
-				$extension_autorisees; 
+				$extension_autorisees=[]; 
 				//on definit les extensions autorisees
 				if (is_numeric($type)) 
 				{

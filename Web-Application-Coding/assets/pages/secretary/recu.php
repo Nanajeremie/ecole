@@ -19,12 +19,13 @@
     elseif (isset($_GET['id_inscription']) AND !empty($_GET['id_inscription']) AND isset($_GET['dates']) AND !empty($_GET['dates'])) {
         extract($_GET);
         $date_paiement = substr($dates , 0 , 10);
-        $matri = $obj->Requete("SELECT MATRICULE FROM inscription WHERE ID_INSCRIPTION = '".$id_inscription."'")->fetch();
-        $old_student = $obj->Requete('SELECT * FROM etudiant etu, inscription insc, scolarite sco WHERE etu.MATRICULE = insc.MATRICULE AND sco.ID_INSCRIPTION = insc.ID_INSCRIPTION AND etu.MATRICULE = "'.$matri['MATRICULE'].'"')->fetch();
-        $scolarship_rate = $obj->Requete('SELECT * FROM bourse b, historique_bourse h WHERE b.ID_BOURSE = h.ID_BOURSE AND h.MATRICULE = "'.$matri['MATRICULE'].'"')->fetch();
-        $date_paiement = $obj->Requete('SELECT * FROM historique_payement h, inscription i WHERE h.ID_INSCRIPTION = i.ID_INSCRIPTION AND i.MATRICULE = "'.$matri['MATRICULE'].'" AND h.DATE_PAYEMENT = "'.$dates.'"')->fetch();
-        $class_info = $obj->Requete('SELECT * FROM classe c, inscription i, filieres f WHERE i.ID_CLASSE = c.ID_CLASSE AND f.ID_FILIERE = c.ID_FILIERE AND i.MATRICULE = "'.$matri['MATRICULE'].'" ')->fetch();
-        $montant_payer = $obj->Requete('SELECT SUM(MONTANT) FROM `historique_payement` WHERE ID_INSCRIPTION ='.$id_inscription.' AND DATE_PAYEMENT <="'.$date_paiement['DATE_PAYEMENT'].'"')->fetch();
+        $old_student = $obj->Requete('SELECT * FROM etudiant etu, inscription insc, scolarite sco WHERE etu.MATRICULE = insc.MATRICULE AND sco.ID_INSCRIPTION = insc.ID_INSCRIPTION AND insc.ID_INSCRIPTION = "'.$id_inscription.'" ORDER BY insc.ID_INSCRIPTION DESC LIMIT 1')->fetch();
+
+        $class_info = $obj->Requete('SELECT * FROM classe c, inscription i, niveau n WHERE i.ID_CLASSE = c.ID_CLASSE AND n.ID_NIVEAU = c.ID_NIVEAU AND i.ID_INSCRIPTION = "'.$id_inscription.'" ')->fetch();
+
+        $date_paiement = $obj->Requete('SELECT * FROM historique_payement h, inscription i WHERE h.ID_INSCRIPTION = i.ID_INSCRIPTION AND i.ID_INSCRIPTION = "'.$id_inscription.'" AND h.DATE_PAYEMENT ="'.$dates.'"')->fetch();
+
+
         $secretaire = $obj->Requete("SELECT * FROM administration WHERE ID_USER = '".$date_paiement['USER']."'")->fetch();
     }
 

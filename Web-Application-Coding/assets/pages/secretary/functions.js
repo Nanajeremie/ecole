@@ -1,3 +1,4 @@
+
 function rename_input_update(titre) {
 	var inp = document.getElementById('id'+titre);
 	inp.name='id_user';

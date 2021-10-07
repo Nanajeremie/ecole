@@ -33,7 +33,7 @@ function getLogsPath()
     //gets the root folder of the project
     $path = $_SERVER['DOCUMENT_ROOT'];
     //adding separators function of the OS of the server
-    $path .= DIRECTORY_SEPARATOR.'college'.DIRECTORY_SEPARATOR.'Web-Application-Coding'.DIRECTORY_SEPARATOR.'LOG'.DIRECTORY_SEPARATOR;
+    $path .= DIRECTORY_SEPARATOR.'ecole'.DIRECTORY_SEPARATOR.'Web-Application-Coding'.DIRECTORY_SEPARATOR.'LOG'.DIRECTORY_SEPARATOR;
     $path = Correct_sep($path);
     //gets the absolute path of the log folder
     $path = realpath($path);

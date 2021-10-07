@@ -1,10 +1,11 @@
 <?php
     
     include_once('../menu.php');
-    $obj = new QueryBuilder();
     $localise=0;
+$obj = new QueryBuilder();~
     $school_years = $obj->Select('annee_scolaire', array(), array(), 'ID_ANNEE', 0);
     $picture = $obj->Requete("SELECT PROFILE_PIC as pic FROM user WHERE ID_USER = '".$_SESSION['ID_USER']."'")->fetch();
+    $id_annee = intval($obj->Requete("SELECT ID_ANNEE FROM annee_scolaire ORDER BY ID_ANNEE DESC LIMIT 1")->fetch()['ID_ANNEE']);
     if (isset($_GET['page']))
     {
         $page=$_GET['page'];
@@ -180,24 +181,24 @@
                 <?php
                 if(is_object($school_years)){
                 ?>
-                <form class="form-inline mr-auto" method="POST" id="year" style="display: none">
+                <form class="form-inline mr-auto col-3" method="POST" id="year" style="display: none">
                     <div class="input-group">
 
-                        <select  oninput="get_year_info(this.value/*,json_encode($page)*/)" class="form-control px-3" name="filter_year" id="filter_year">
+                        <select  onchange="get_year_info(this.value)" class="form-control px-3" name="filter_year" id="filter_year">
                         <?php
                             $i = 0;
 
                               while ($school_year = $school_years->fetch()) {
-
+                                $anneeScolaire = explode('-',$school_year['DATE_INI'])[0]."-".(explode('-',$school_year['DATE_INI'])[0]+1);
                                   $i++;
                                   if ($i == 1) {
                                       ?>
-                                      <option selected value="<?= $school_year['ID_ANNEE'] ?>"><?= 'Actual year' ?></option>
+                                      <option selected value="<?= $school_year['ID_ANNEE'] ?>"><?=$anneeScolaire ?></option>
                                       <?php
 
                                   } else {
                                       ?>
-                                      <option value="<?= $school_year['ID_ANNEE'] ?>"><?= '' . substr($school_year['DATE_INI'], 0,4) . '-' . substr($school_year['DATE_FIN'], 0,4)  ?></option>
+                                      <option value="<?= $school_year['ID_ANNEE'] ?>"><?=$anneeScolaire  ?></option>
                                       <?php
                                   }
                               }
@@ -299,21 +300,17 @@
 
                 function get_year_info(annee)
                 {
-                    
+                   
                     var pages = <?=json_encode($page)?>;
-                      //console.log(annee);
-
-                        //alert('dsdwee');
 
                     if (annee == <?= json_encode($id_annee) ?>)
                     {
-                        //alert(annee);
                         var lien_page = <?=json_encode($link)?>;
                         window.open(" " , "_self");
                     }
                     else
                     {
-                        //alert(annee);
+                        
                         $.post(
                             '../../../ajax.php',{
 
@@ -321,7 +318,6 @@
                                 annee:annee,
                                 page:pages,
                             }, function (don){
-                                //console.log(don.split('*')[0]);
                                 if(pages=="list-payment"){
                                     $('#cont').html(don.split('*')[0]);
                                     $('#outcont').html(don.split('*')[1]);

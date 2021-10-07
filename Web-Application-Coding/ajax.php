@@ -359,37 +359,25 @@ if (isset($_POST['shr'])){
 
     // Dans le cas ou nous sommes dans la page de liste paiement
     if ($page == 'list-payment') {
-        $all_new_payment = $obj->Requete('SELECT * FROM etudiant etu,inscription insc, scolarite sco WHERE etu.MATRICULE = insc.MATRICULE AND sco.ID_INSCRIPTION = insc.ID_INSCRIPTION AND insc.ID_ANNEE="'. getAnnee($annee)['ID_ANNEE'].'"');
+        $all_new_payment = $obj->Requete("SELECT * FROM etudiant etu, classe c, niveau n,inscription insc, scolarite sco, annee_scolaire a WHERE c.ID_CLASSE=insc.ID_CLASSE AND n.ID_NIVEAU = c.ID_NIVEAU AND a.ID_ANNEE = insc.ID_ANNEE AND etu.MATRICULE = insc.MATRICULE  AND sco.ID_INSCRIPTION = insc.ID_INSCRIPTION AND sco.MONTANT_TOTAL>sco.MONTANT_PAYE AND insc.ID_ANNEE='".$annee."'");
 
         while ($the_new_payment = $all_new_payment->fetch()) {
-            if ($the_new_payment['MONTANT_TOTAL']!=0){
                 $tauxPayer = ($the_new_payment['MONTANT_PAYE'] / $the_new_payment['MONTANT_TOTAL']) * 100;
                 $tauxPayer = intval($tauxPayer);
-            }else{
-                
-                $tauxPayer=100;
-            }
 
-            if ($tauxPayer>=100){
-
-            $update = $the_new_payment['MATRICULE'];
-            $classe = $obj->Select('classe', array(), array('ID_CLASSE' => $the_new_payment['ID_CLASSE']))->fetch();
-            $filiere = $obj->Select('filieres', array(), array('ID_FILIERE' => $classe['ID_FILIERE']))->fetch();
-
-            $stud_naes = $the_new_payment['NOM']." ".$the_new_payment['PRENOM']." : ".$classe['NOM_CLASSE'];
+            $stud_naes = $the_new_payment['NOM']." ".$the_new_payment['PRENOM']." : ".$the_new_payment['NOM_CLASSE'];
             $upcorps .= '<tr>
-                                                <td>
-                                                    <button class="btn btn-outline-primary" data-toggle="modal" data-target="#updates" onclick="getStudentInfo('.htmlspecialchars(json_encode($the_new_payment['ID_INSCRIPTION'])).','.htmlspecialchars(json_encode($stud_naes)).')">
-                                                        Details
-                                                    </button>
-                                                </td>
-                                            <td>' . $the_new_payment['MATRICULE'] . '</td>
-                                            <td>' . $the_new_payment['NOM'] . '</td>
-                                            <td>' . $the_new_payment['PRENOM'] . '</td>
-                                            <td>' . $the_new_payment['SEXE'] . '</td>
-                                            <td>' . $classe['NOM_CLASSE'] . '</td>
-                                            <td>' . ((int)$the_new_payment['MONTANT_TOTAL'] - (int)$the_new_payment['MONTANT_PAYE']) . '</td>
-                                            <td>' . $the_new_payment['MONTANT_TOTAL'] . '</td>';
+                            <td>
+                                <button class="btn btn-outline-primary" data-toggle="modal" data-target="#updates" onclick="getStudentInfo('.htmlspecialchars(json_encode($the_new_payment['ID_INSCRIPTION'])).','.htmlspecialchars(json_encode($stud_naes)).')">
+                                    Details
+                                </button>
+                            </td>
+                        <td>' . $the_new_payment['NOM'] . '</td>
+                        <td>' . $the_new_payment['PRENOM'] . '</td>
+                        <td>' . $the_new_payment['SEXE'] . '</td>
+                        <td>' . $the_new_payment['NOM_CLASSE'] . '</td>
+                        <td>' . ((int)$the_new_payment['MONTANT_TOTAL'] - (int)$the_new_payment['MONTANT_PAYE']) . '</td>
+                        <td>' . $the_new_payment['MONTANT_TOTAL'] . '</td>';
 
             if ($tauxPayer < 100) {
 
@@ -399,71 +387,13 @@ if (isset($_POST['shr'])){
                 $upcorps .= '<td class="text-success">' . $tauxPayer . '%</td>';
             }
             $upcorps .= '</tr>';
-        }
 
         }
-
-
-
-        //echo $upcorps;
-
 
         //pour out of date
 
-        $yaro = $obj->Requete('SELECT * FROM etudiant etu,inscription insc, scolarite sco WHERE etu.MATRICULE = insc.MATRICULE AND sco.ID_INSCRIPTION = insc.ID_INSCRIPTION AND insc.ID_ANNEE="' . getAnnee($annee)['ID_ANNEE'] .'"');
-
-        while ($thepayment = $yaro->fetch()) {
-            $classe = $obj->Select('classe', array(), array('ID_CLASSE' => $thepayment['ID_CLASSE']))->fetch();
-            $filiere = $obj->Select('filieres', array(), array('ID_FILIERE' => $classe['ID_FILIERE']))->fetch();
-            $update = 'see';
-            $update = $thepayment['MATRICULE'];
-
-
-            if ($thepayment['MONTANT_TOTAL']!=0){
-                $tauxPayer = ($thepayment['MONTANT_PAYE'] / $thepayment['MONTANT_TOTAL']) * 100;
-                $tauxPayer = floatval($tauxPayer);
-            }else{
-                $tauxPayer=100;
-            }
-
-
-            if ($tauxPayer<100 ) {
-                $stud_names = $thepayment['NOM']." ".$thepayment['PRENOM']." : ".$classe['NOM_CLASSE'];
-
-                $oucorps .= '<tr>
-                                                <td>
-                                                        <button class="btn btn-outline-primary" data-toggle="modal" data-target="#updates" onclick="getStudentInfo('.htmlspecialchars(json_encode($thepayment['ID_INSCRIPTION'])).','.htmlspecialchars(json_encode($stud_names)).')">
-
-                                                        Details
-                                                    </button>
-                                                </td>
-                                            <td>' . $thepayment['MATRICULE'] . '</td>
-                                            <td>' . $thepayment['NOM'] . '</td>
-                                            <td>' . $thepayment['PRENOM'] . '</td>
-                                            <td>' . $thepayment['SEXE'] . '</td>
-                                            <td>' . $classe['NOM_CLASSE'] . '</td>
-                                            <td>' . ((int)$thepayment['MONTANT_TOTAL'] - (int)$thepayment['MONTANT_PAYE']) . '</td>
-                                            <td>' . $thepayment['MONTANT_TOTAL'] . '</td>';
-                $showTaux = explode('.',strval($tauxPayer))[0].'.'.substr(explode('.',strval($tauxPayer))[1], 0,2);
-                if ($tauxPayer < 100) {
-
-                    $oucorps .= '<td class="text-warning">'.$showTaux.'%</td> ';
-                } else {
-
-
-                    $oucorps .= ' <td class="text-success">' . $showTaux . '%</td>';
-                }
-                $oucorps .= '  </tr>';
-
-
-            }
-        }
-
-        //echo $oucorps;
         $retour = $upcorps . "*" . $oucorps;
         echo $retour;
-
-    //exit(json_decode([$upcorps,$oucorps]));
 
     }
 
